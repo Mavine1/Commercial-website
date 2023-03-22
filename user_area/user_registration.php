@@ -34,10 +34,9 @@
     </div>
     <!--image field-->
     <div class="form-outline mb-4">
-     <label for="user_image" class="form-label">User images</label>
+     <label for="user_image" class="form-label">User image</label>
     <input type="text" id="user_image" class="form-control"
-    placeholder="Enter your Email" 
-    autocomplete="off" required="required" name = "user_image"/>
+     required="required" name = "user_image"/>
     </div>
     <!--Password field-->
     <div class="form-outline mb-4">
@@ -45,6 +44,14 @@
     <input type="text" id="user_password" class="form-control"
     placeholder="Enter your password" 
     autocomplete="off" required="required" name = "user_password" 
+    class="form-control"/>
+    </div>
+    <!--confi-->
+    <div class="form-outline mb-4">
+     <label for="user_email" class="form-label">UserEmail</label>
+    <input type="text" id="user_email" class="form-control"
+    placeholder="Enter your Email" 
+    autocomplete="off" required="required" name = "user_email" 
     class="form-control"/>
     </div>
 </form>
