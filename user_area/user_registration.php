@@ -13,7 +13,7 @@
 <body>
 <div class="container-fluid my-3">
     <h2 class="text-center">New User Registration</h2>
-    <div class="row ">
+    <div class="row d-flex  align-items-center justify-content-center">
         <div class="col-lg-12 col-xl-6">
 <form action="" method="post" enctype="multipart/form-data">
     <div class="form-outline mb-4">
