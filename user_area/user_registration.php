@@ -65,7 +65,7 @@
     autocomplete="off" required="required" name = "user_contact"/>
     </div>
     <div class="text-center">
-        <input type="submit" value=">
+        <input type="submit" value="Register" class="bg-info py-2 px-3">
     </div>
 </form>
         </div>
