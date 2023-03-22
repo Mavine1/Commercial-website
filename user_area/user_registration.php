@@ -18,7 +18,14 @@
 <form action="" method="post" enctype="multipart/form-data">
     <div class="form-outline">
      <label for="user_username" class="form-label">Username</label>
-    <input type="text" id="user_username" class="form_control"
+    <input type="text" id="user_username" class="form-control"
+    placeholder="Enter your username" 
+    autocomplete="off" required="required" name = "user_username" 
+    class="form-control"/>
+    </div>
+    <div class="form-outline">
+     <label for="user_username" class="form-label">Username</label>
+    <input type="text" id="user_username" class="form-control"
     placeholder="Enter your username" 
     autocomplete="off" required="required" name = "user_username" 
     class="form-control"/>
