@@ -32,6 +32,22 @@
     autocomplete="off" required="required" name = "user_email" 
     class="form-control"/>
     </div>
+    <!--image field-->
+    <div class="form-outline mb-4">
+     <label for="user_image" class="form-label">User images</label>
+    <input type="text" id="user_image" class="form-control"
+    placeholder="Enter your Email" 
+    autocomplete="off" required="required" name = "user_image" 
+    class="form-control"/>
+    </div>
+    <!---->
+    <div class="form-outline mb-4">
+     <label for="user_email" class="form-label">UserEmail</label>
+    <input type="text" id="user_email" class="form-control"
+    placeholder="Enter your Email" 
+    autocomplete="off" required="required" name = "user_email" 
+    class="form-control"/>
+    </div>
 </form>
         </div>
     </div>
