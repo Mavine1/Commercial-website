@@ -49,7 +49,7 @@
     <div class="form-outline mb-4">
      <label for="confirm_user_password" class="form-label">Confirm password</label>
     <input type="password" id="confirm_user_password" class="form-control"
-    placeholder="Enter your password" 
+    placeholder="confirm your password" 
     autocomplete="off" required="required" name = "confirm_user_password"/>
     </div>
 </form>
