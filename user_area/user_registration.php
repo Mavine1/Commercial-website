@@ -17,14 +17,16 @@
         <div class="col-lg-12 col-xl-6">
 <form action="" method="post" enctype="multipart/form-data">
     <div class="form-outline">
+        <!--username field-->
      <label for="user_username" class="form-label">Username</label>
     <input type="text" id="user_username" class="form-control"
     placeholder="Enter your username" 
     autocomplete="off" required="required" name = "user_username" 
     class="form-control"/>
     </div>
+    <!--email-->
     <div class="form-outline">
-     <label for="user_username" class="form-label">Username</label>
+     <label for="user_email" class="form-label">Username</label>
     <input type="text" id="user_username" class="form-control"
     placeholder="Enter your username" 
     autocomplete="off" required="required" name = "user_username" 
