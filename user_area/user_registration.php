@@ -67,7 +67,7 @@
     <div class="mt-4 pt-2">
         <input type="submit" value="Register" class="bg-info py-2 px-3
         border-0" name="user_register">
-        <p>Already have an account</p>
+        <p>Already have an account?<a href="user_login.php"></a>Login</p>
     </div>
 </form>
         </div>
