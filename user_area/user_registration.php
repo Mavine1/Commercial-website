@@ -18,18 +18,18 @@
 <form action="" method="post" enctype="multipart/form-data">
     <div class="form-outline">
         <!--username field-->
-     <label for="user_username" class="form-label">Username</label>
-    <input type="text" id="user_username" class="form-control"
+     <label for="username" class="form-label">Username</label>
+    <input type="text" id="username" class="form-control"
     placeholder="Enter your username" 
-    autocomplete="off" required="required" name = "user_username" 
+    autocomplete="off" required="required" name = "username" 
     class="form-control"/>
     </div>
     <!--email-->
     <div class="form-outline">
-     <label for="user_email" class="form-label">Username</label>
-    <input type="text" id="user_username" class="form-control"
-    placeholder="Enter your username" 
-    autocomplete="off" required="required" name = "user_username" 
+     <label for="user_email" class="form-label">UserEmail</label>
+    <input type="text" id="user_email" class="form-control"
+    placeholder="Enter your Email" 
+    autocomplete="off" required="required" name = "user_email" 
     class="form-control"/>
     </div>
 </form>
