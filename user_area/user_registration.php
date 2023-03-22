@@ -57,6 +57,13 @@
     placeholder="Enter your address" 
     autocomplete="off" required="required" name = "user_address"/>
     </div>
+    <!--contact field-->
+    <div class="form-outline mb-4">
+     <label for="user_contact" class="form-label">Contact</label>
+    <input type="text" id="user_contact" class="form-control"
+    placeholder="Enter your contact" 
+    autocomplete="off" required="required" name = "user_contact"/>
+    </div>
 </form>
         </div>
     </div>
