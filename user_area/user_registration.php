@@ -37,15 +37,14 @@
      <label for="user_image" class="form-label">User images</label>
     <input type="text" id="user_image" class="form-control"
     placeholder="Enter your Email" 
-    autocomplete="off" required="required" name = "user_image" 
-    class="form-control"/>
+    autocomplete="off" required="required" name = "user_image"/>
     </div>
-    <!---->
+    <!--Password field-->
     <div class="form-outline mb-4">
-     <label for="user_email" class="form-label">UserEmail</label>
-    <input type="text" id="user_email" class="form-control"
-    placeholder="Enter your Email" 
-    autocomplete="off" required="required" name = "user_email" 
+     <label for="user_password" class="form-label">UserPassword</label>
+    <input type="text" id="user_password" class="form-control"
+    placeholder="Enter your password" 
+    autocomplete="off" required="required" name = "user_password" 
     class="form-control"/>
     </div>
 </form>
