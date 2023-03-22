@@ -41,7 +41,7 @@
     <!--Password field-->
     <div class="form-outline mb-4">
      <label for="user_password" class="form-label">UserPassword</label>
-    <input type="text" id="user_password" class="form-control"
+    <input type="password" id="user_password" class="form-control"
     placeholder="Enter your password" 
     autocomplete="off" required="required" name = "user_password" 
     class="form-control"/>
@@ -49,8 +49,8 @@
     <!--confirm password-->
     <div class="form-outline mb-4">
      <label for="confirm_user_password" class="form-label">Confirm password</label>
-    <input type="text" id="user_email" class="form-control"
-    placeholder="Enter your Email" 
+    <input type="password" id="confirm_user_password" class="form-control"
+    placeholder="Enter your password" 
     autocomplete="off" required="required" name = "user_email" 
     class="form-control"/>
     </div>
