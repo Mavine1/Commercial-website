@@ -13,19 +13,19 @@
 <body>
 <div class="container-fluid my-3">
     <h2 class="text-center">New User Registration</h2>
-    <div class="row">
+    <div class="row ">
         <div class="col-lg-12 col-xl-6">
 <form action="" method="post" enctype="multipart/form-data">
-    <div class="form-outline">
+    <div class="form-outline mb-4">
         <!--username field-->
-     <label for="username" class="form-label">Username</label>
+     <label for="username" class="form-label">UserName</label>
     <input type="text" id="username" class="form-control"
     placeholder="Enter your username" 
     autocomplete="off" required="required" name = "username" 
     class="form-control"/>
     </div>
     <!--email-->
-    <div class="form-outline">
+    <div class="form-outline mb-4">
      <label for="user_email" class="form-label">UserEmail</label>
     <input type="text" id="user_email" class="form-control"
     placeholder="Enter your Email" 
