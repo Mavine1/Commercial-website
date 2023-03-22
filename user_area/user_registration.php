@@ -64,6 +64,9 @@
     placeholder="Enter your contact" 
     autocomplete="off" required="required" name = "user_contact"/>
     </div>
+    <div class="text-center">
+        <input type="submit" value=">
+    </div>
 </form>
         </div>
     </div>
