@@ -52,12 +52,12 @@
     placeholder="confirm your password" 
     autocomplete="off" required="required" name = "confirm_user_password"/>
     </div>
-    <!--email-->
+    <!--address field-->
     <div class="form-outline mb-4">
-     <label for="user_email" class="form-label">UserEmail</label>
-    <input type="text" id="user_email" class="form-control"
-    placeholder="Enter your Email" 
-    autocomplete="off" required="required" name = "user_email" 
+     <label for="user_address" class="form-label">Address</label>
+    <input type="text" id="user_address" class="form-control"
+    placeholder="Enter your address" 
+    autocomplete="off" required="required" name = "user_address" 
     class="form-control"/>
     </div>
 </form>
