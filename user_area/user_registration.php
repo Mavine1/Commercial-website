@@ -21,16 +21,14 @@
      <label for="username" class="form-label">UserName</label>
     <input type="text" id="username" class="form-control"
     placeholder="Enter your username" 
-    autocomplete="off" required="required" name = "username" 
-    class="form-control"/>
+    autocomplete="off" required="required" name = "username"/>
     </div>
     <!--email-->
     <div class="form-outline mb-4">
      <label for="user_email" class="form-label">UserEmail</label>
     <input type="text" id="user_email" class="form-control"
     placeholder="Enter your Email" 
-    autocomplete="off" required="required" name = "user_email" 
-    class="form-control"/>
+    autocomplete="off" required="required" name = "user_email"/>
     </div>
     <!--image field-->
     <div class="form-outline mb-4">
@@ -57,8 +55,7 @@
      <label for="user_address" class="form-label">Address</label>
     <input type="text" id="user_address" class="form-control"
     placeholder="Enter your address" 
-    autocomplete="off" required="required" name = "user_address" 
-    class="form-control"/>
+    autocomplete="off" required="required" name = "user_address"/>
     </div>
 </form>
         </div>
