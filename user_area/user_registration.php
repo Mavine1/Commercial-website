@@ -20,7 +20,8 @@
      <label for="user_username" class="form-label">Username</label>
     <input type="text" id="user_username" class="form_control"
     placeholder="Enter your username" 
-    autocomplete="off" required="required" name = "user_username/>
+    autocomplete="off" required="required" name = "user_username" 
+    class="form-control"/>
     </div>
 </form>
         </div>
