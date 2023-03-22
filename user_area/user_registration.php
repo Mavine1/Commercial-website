@@ -11,6 +11,20 @@
    
 </head>
 <body>
-<div class="container-fluid"></div>
+<div class="container-fluid my-3">
+    <h2 class="text-center">New User Registration</h2>
+    <div class="row">
+        <div class="col-lg-12 col-xl-6">
+<form action="" method="post" enctype="multipart/form-data">
+    <div class="form-outline">
+     <label for="user_username" class="form-label">Username</label>
+    <input type="text" id="user_username" class="form_control"
+    placeholder="Enter your username" 
+    autocomplete="off" required="required" name = "user_username/>
+    </div>
+</form>
+        </div>
+    </div>
+</div>
 </body>
 </html>
