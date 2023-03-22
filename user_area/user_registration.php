@@ -64,9 +64,10 @@
     placeholder="Enter your contact" 
     autocomplete="off" required="required" name = "user_contact"/>
     </div>
-    <div class="text-center">
+    <div class="mt-4 pt-2">
         <input type="submit" value="Register" class="bg-info py-2 px-3
         border-0" name="user_register">
+        <p>Already have an account</p>
     </div>
 </form>
         </div>
