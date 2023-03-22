@@ -46,9 +46,9 @@
     autocomplete="off" required="required" name = "user_password" 
     class="form-control"/>
     </div>
-    <!--confi-->
+    <!--confirm password-->
     <div class="form-outline mb-4">
-     <label for="user_email" class="form-label">UserEmail</label>
+     <label for="confirm_user_password" class="form-label">Confirm password</label>
     <input type="text" id="user_email" class="form-control"
     placeholder="Enter your Email" 
     autocomplete="off" required="required" name = "user_email" 
