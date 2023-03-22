@@ -35,7 +35,7 @@
     <!--image field-->
     <div class="form-outline mb-4">
      <label for="user_image" class="form-label">User image</label>
-    <input type="text" id="user_image" class="form-control"
+    <input type="file" id="user_image" class="form-control"
      required="required" name = "user_image"/>
     </div>
     <!--Password field-->
@@ -43,16 +43,14 @@
      <label for="user_password" class="form-label">UserPassword</label>
     <input type="password" id="user_password" class="form-control"
     placeholder="Enter your password" 
-    autocomplete="off" required="required" name = "user_password" 
-    class="form-control"/>
+    autocomplete="off" required="required" name = "user_password"/>
     </div>
     <!--confirm password-->
     <div class="form-outline mb-4">
      <label for="confirm_user_password" class="form-label">Confirm password</label>
     <input type="password" id="confirm_user_password" class="form-control"
     placeholder="Enter your password" 
-    autocomplete="off" required="required" name = "user_email" 
-    class="form-control"/>
+    autocomplete="off" required="required" name = "confirm_user_password"/>
     </div>
 </form>
         </div>
