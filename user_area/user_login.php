@@ -60,7 +60,7 @@ if(isset($_POST['user_login'])){
   if($row_count>0){
 
   }else{
-    
+    echo "<script>alert(</script>";
   }
 
 }
