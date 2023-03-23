@@ -87,7 +87,7 @@ if(isset($_POST['user_register'])){
     $user_email=$_POST['user_email'];
     $user_password=$_POST['user_password'];
     $hash_password=password_hash($user_password,PASSWORD_DEFAULT);
-    $confirm_user_username=$_POST['confirm_user_password'];
+    $confirm_user_password=$_POST['confirm_user_password'];
     $user_contact=$_POST['user_contact'];
     $user_image=$_FILES['user_image'];['name'];
     $user_image=$_FILES['user_image'];['tmp_name'];
@@ -100,8 +100,9 @@ if(isset($_POST['user_register'])){
     $result=Mysqli_query($con,$select_query);
     $rows_count=mysqli_num_rows($result);
     if($rows_count>0){
-        echo "<script>alert('username and email already exists')</script"
+        echo "<script>alert('username and email already exists')</script>";
     }
+    else if($user_password!=$confirm_user_)
 
     //inset_query
 move_uploaded_file($user_image_tmp,"./user_image/$user_image");
