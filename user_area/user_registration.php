@@ -86,7 +86,7 @@ if(isset($_POST['user_register'])){
     $user_username=$_POST['username'];
     $user_email=$_POST['user_email'];
     $user_password=$_POST['user_password'];
-    $hash_password=password_hash($user_password);
+    $hash_password=password_hash($user_password,PASSWORD_DEFAULT);
     $confirm_user_username=$_POST['confirm_user_password'];
     $user_contact=$_POST['user_contact'];
     $user_image=$_FILES['user_image'];['name'];
@@ -97,7 +97,7 @@ if(isset($_POST['user_register'])){
     //inset_query
 move_uploaded_file($user_image_tmp,"./user_image/$user_image");
 $insert_query="insert into user_table (username,user_email,user_password,user_image,user_ip,
-user_address,user_mobile) values ('$user_name','$user_email','$user_password'
+user_address,user_mobile) values ('$user_name','$user_email','$harsh_password'
 '$user_image','$user_ip','$user_address','$user_contact')";
 $sql_execute=mysqli_query($con,$insert_query);
 if($sql_execute){
