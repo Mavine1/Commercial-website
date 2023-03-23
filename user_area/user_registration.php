@@ -122,6 +122,10 @@ if($rows_count>0){
     echo "<script>alert('you have items in your cart')</script>";
     echo "<script>windows.open('checkout.php','_self')</script>";
 }
+else{
+    echo "<script>windows.open('...php','_self')</script>";
+
+}
 
 }
 ?>
