@@ -123,7 +123,7 @@ if($rows_count>0){
     echo "<script>windows.open('checkout.php','_self')</script>";
 }
 else{
-    echo "<script>windows.open('...php','_self')</script>";
+    echo "<script>windows.open('../index.php','_self')</script>";
 
 }
 
