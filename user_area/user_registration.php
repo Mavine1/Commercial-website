@@ -93,8 +93,8 @@ if(isset($_POST['user_register'])){
     $user_image=$_FILES['user_image'];['name'];['tmp_name'];
     $user_ip=getIPAddress();
 
-    //inser_query
-    
+    //inset_query
+move_uploaded_file($user_image_)
 }
 
 ?>
