@@ -61,7 +61,8 @@ if(isset($_POST['user_login'])){
   $user_ip=getIPAddress();
 
   //cart item
-  $select_query="select * from cart_details where ip_address='$username'";
+  $select_query_cart="select * from cart_details where ip_address='$user_ip'";
+  $select_cart=mysqli_query()
   if($row_count>0){
     if(password_verify($user_password,$row_data['user_password'])){
       echo "<script>alert('login successful')</script>";
