@@ -69,7 +69,10 @@ if(isset($_POST['user_login'])){
       //echo "<script>alert('login successful')</script>";
       if($row_count==1 and $row_count_cart==0){
         echo "<script>alert('login successful')</script>";
-        echo "<script>window.open('profile.php',)</script>";
+        echo "<script>window.open('profile.php','_self')</script>";
+      }else{
+        echo "<script>alert('login successful')</script>";
+        echo "<script>window.open('profile.php','_self')</script>";
       }
     }else{
       echo "<script>alert('invalid credentials')</script>";
