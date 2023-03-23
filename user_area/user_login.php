@@ -23,19 +23,7 @@
     placeholder="Enter your username" 
     autocomplete="off" required="required" name = "username"/>
     </div>
-    <!--email-->
-    <div class="form-outline mb-4">
-     <label for="user_email" class="form-label">UserEmail</label>
-    <input type="text" id="user_email" class="form-control"
-    placeholder="Enter your Email" 
-    autocomplete="off" required="required" name = "user_email"/>
-    </div>
-    <!--image field-->
-    <div class="form-outline mb-4">
-     <label for="user_image" class="form-label">User image</label>
-    <input type="file" id="user_image" class="form-control"
-     required="required" name = "user_image"/>
-    </div>
+    
     <!--Password field-->
     <div class="form-outline mb-4">
      <label for="user_password" class="form-label">UserPassword</label>
@@ -43,21 +31,7 @@
     placeholder="Enter your password" 
     autocomplete="off" required="required" name = "user_password"/>
     </div>
-    
-    <!--address field-->
-    <div class="form-outline mb-4">
-     <label for="user_address" class="form-label">Address</label>
-    <input type="text" id="user_address" class="form-control"
-    placeholder="Enter your address" 
-    autocomplete="off" required="required" name = "user_address"/>
-    </div>
-    <!--contact field-->
-    <div class="form-outline mb-4">
-     <label for="user_contact" class="form-label">Contact</label>
-    <input type="text" id="user_contact" class="form-control"
-    placeholder="Enter your contact" 
-    autocomplete="off" required="required" name = "user_contact"/>
-    </div>
+   
     <div class="mt-4 pt-2">
         <input type="submit" value="Register" class="bg-info py-2 px-3
         border-0" name="user_register">
