@@ -60,7 +60,7 @@ if(isset($_POST['user_login'])){
   $row_data=mysqli_fetch_assoc($result);
   if($row_count>0){
     if(password_verify($user_password,$row_data['user_password'])){
-
+      echo "<script>alert('login succesfull')</script>";
     }else{
       echo "<script>alert('invalid credentials')</script>";
   }
