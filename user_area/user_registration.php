@@ -96,7 +96,8 @@ if(isset($_POST['user_register'])){
     //inset_query
 move_uploaded_file($user_image_tmp,"./user_image/$user_image");
 $insert_query="insert into user_table (username,user_email,user_password,user_image,user_ip,
-user_address,user_mobile) values ('$user_name','$user_email','$user_password"
+user_address,user_mobile) values ('$user_name','$user_email','$user_password'
+'$user_image','$user_ip','$user_address','"
 }
 
 ?>
