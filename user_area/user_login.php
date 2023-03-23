@@ -46,6 +46,8 @@
 
 <?php
 if(isset($_POST['user_login'])){
-  $user_user
+  $username=$_POST['username'];
+  $user_password=$_POST['user_password'];
+  
 }
 ?>
