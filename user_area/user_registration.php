@@ -99,7 +99,9 @@ if(isset($_POST['user_register'])){
     or user_email='$user_email'";
     $result=Mysqli_query($con,$select_query);
     $rows_count=mysqli_num_rows($result);
-    if($rows)
+    if($rows_count>0){
+        echo "<script>alert('username and email already exists')</script"
+    }
 
     //inset_query
 move_uploaded_file($user_image_tmp,"./user_image/$user_image");
