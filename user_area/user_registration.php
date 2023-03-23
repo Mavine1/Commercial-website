@@ -95,7 +95,9 @@ if(isset($_POST['user_register'])){
     $user_ip=getIPAddress();
 
     //select_query
-    $select_query="select *from"
+    $select_query="select *from user_table where username='$user_name'
+    or user_email='$user_email'";
+    $result=Mysqli_query
 
     //inset_query
 move_uploaded_file($user_image_tmp,"./user_image/$user_image");
