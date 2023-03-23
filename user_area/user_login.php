@@ -57,6 +57,11 @@ if(isset($_POST['user_login'])){
   where username='$username'";
   $result=mysqli_query($con,$select_query);
   $row_count=mysqli_num_rows($result);
+  if($row_count>0){
+
+  }else{
+    
+  }
 
 }
 ?>
