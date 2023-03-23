@@ -118,7 +118,7 @@ $select_cart_items="select * from cart_details where ip_address='$user_ip'";
 $result_cart=mysqli_query($con,$select_cart_items);
 $rows_count=mysqli_num_rows($result_cart);
 if($rows_count>0){
-    $
+    $_SESSION['username']=$user_name;
     echo "<script>alert('you have items in your cart')</script>";
     echo "<script>windows.open('checkout.php','_self')</script>";
 }
