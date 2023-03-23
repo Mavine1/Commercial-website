@@ -102,7 +102,9 @@ if(isset($_POST['user_register'])){
     if($rows_count>0){
         echo "<script>alert('username and email already exists')</script>";
     }
-    else if($user_password!=$confirm_user_)
+    else if($user_password!=$confirm_user_password){
+        echo "<script>alert('passwords do not match')</"
+    }
 
     //inset_query
 move_uploaded_file($user_image_tmp,"./user_image/$user_image");
