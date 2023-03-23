@@ -66,7 +66,11 @@ if(isset($_POST['user_login'])){
   $row_count_cart=mysqli_num_rows($row_count_cart);
   if($row_count>0){
     if(password_verify($user_password,$row_data['user_password'])){
-      echo "<script>alert('login successful')</script>";
+      //echo "<script>alert('login successful')</script>";
+      if($row_count==1 and $row_count_cart==0){
+        echo "<script>alert('login successful')</script>";
+        echo "<script>window.open('profile.php',)</script>";
+      }
     }else{
       echo "<script>alert('invalid credentials')</script>";
   }
