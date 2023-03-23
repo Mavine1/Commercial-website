@@ -36,7 +36,7 @@
         <input type="submit" value="Login" class="bg-info py-2 px-3
         border-0" name="user_Login">
         <p class= "small fw-bold mt-2 pt-1 mb-0"> Don't have an account ?
-        <a href="user_registration.php" class="text-danger"> </a> </p>
+        <a href="user_registration.php" class="text-danger"> Register</a> </p>
     </div>
 </form>
         </div>
