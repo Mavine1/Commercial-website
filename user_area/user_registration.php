@@ -83,9 +83,9 @@ include('../includes/connect.php');
 <?php
 if(isset($_POST['user_register'])){
     $user_username=$_POST['username'];
-    $user_email=$_POST['user_'];
-    $user_username=$_POST['username'];
-    $user_username=$_POST['username'];
+    $user_email=$_POST['user_email'];
+    $user_password=$_POST['user_password'];
+    $confirm_user_username=$_POST['confirm'];
 }
 
 ?>
