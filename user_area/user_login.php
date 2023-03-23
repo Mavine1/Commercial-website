@@ -15,7 +15,7 @@
     <h2 class="text-center">User login</h2>
     <div class="row d-flex  align-items-center justify-content-center mt-5">
         <div class="col-lg-12 col-xl-6">
-<form action="" method="post" enctype="multipart/form-data">
+<form action="" method="post">
     <div class="form-outline mb-4">
         <!--username field-->
      <label for="username" class="form-label">UserName</label>
