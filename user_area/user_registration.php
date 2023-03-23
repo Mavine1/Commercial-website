@@ -1,6 +1,6 @@
 <?php
 include('../includes/connect.php');
-include('ad/functions/common_function.php');
+include('admin_area/functions/common_function.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
