@@ -115,6 +115,8 @@ $sql_execute=mysqli_query($con,$insert_query);
 }
 //selecting cart items
 $select_cart_items="select * from cart_details where ip_address='$user_ip'";
-$result=mysqli_query($con,$select_cart_items);
+$result_cart=mysqli_query($con,$select_cart_items);
+$rows_count=mysqli_num_rows($result_cart);
+
 }
 ?>
