@@ -9,7 +9,11 @@
     <!--Bootstrap css link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-
+<style>
+  body{
+    overflow-x
+  }
+</style>
 <body>
 <div class="container-fluid my-3">
     <h2 class="text-center">User login</h2>
@@ -48,6 +52,6 @@
 if(isset($_POST['user_login'])){
   $username=$_POST['username'];
   $user_password=$_POST['user_password'];
-  
+
 }
 ?>
