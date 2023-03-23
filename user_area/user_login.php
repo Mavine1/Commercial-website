@@ -55,7 +55,8 @@ if(isset($_POST['user_login'])){
 
   $select_query="select * from user_table 
   where username='$username'";
-  $result=mysqli_query()
+  $result=mysqli_query($con,$select_query);
+  $row_count=mysqli_num_rows($result);
 
 }
 ?>
