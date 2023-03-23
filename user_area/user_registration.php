@@ -117,6 +117,9 @@ $sql_execute=mysqli_query($con,$insert_query);
 $select_cart_items="select * from cart_details where ip_address='$user_ip'";
 $result_cart=mysqli_query($con,$select_cart_items);
 $rows_count=mysqli_num_rows($result_cart);
+if($rows_count>0){
+    echo "<script>alert('you have items ')</script>";
+}
 
 }
 ?>
