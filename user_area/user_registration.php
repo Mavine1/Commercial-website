@@ -90,11 +90,12 @@ if(isset($_POST['user_register'])){
     $user_contact=$_POST['user_contact'];
     $user_image=$_FILES['user_image'];['name'];
     $user_image=$_FILES['user_image'];['tmp_name'];
-    $user_image=$_FILES['user_image'];['name'];['tmp_name'];
+    $user_image_tmp=$_FILES['user_image'];['name'];['tmp_name'];
     $user_ip=getIPAddress();
 
     //inset_query
-move_uploaded_file($user_image_)
+move_uploaded_file($user_image_tmp,"./user_image/$user_image");
+$insert_query
 }
 
 ?>
