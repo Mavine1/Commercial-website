@@ -19,6 +19,11 @@ include('admin_area/functions/common_function.php');
      <script src="https://kit.fontawesome.com/4b57ca4420.js" crossorigin="anonymous"></script>
      <!---Css-->
     <link rel="stylesheet" href="style.css">
+    <style>
+  body{
+    overflow-x:hidden;
+  }
+</style>
     </head>
 <body>
 <!---navbar-->
