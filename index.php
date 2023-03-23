@@ -73,7 +73,7 @@ cart();
           <a class="nav-link" href="#">Welcome Guest</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Login</a>
+          <a class="nav-link" href="./user_area/">Login</a>
         </li>
   </ul>
 </nav>
