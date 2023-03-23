@@ -86,6 +86,7 @@ if(isset($_POST['user_register'])){
     $user_username=$_POST['username'];
     $user_email=$_POST['user_email'];
     $user_password=$_POST['user_password'];
+    
     $confirm_user_username=$_POST['confirm_user_password'];
     $user_contact=$_POST['user_contact'];
     $user_image=$_FILES['user_image'];['name'];
