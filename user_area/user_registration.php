@@ -101,7 +101,9 @@ user_address,user_mobile) values ('$user_name','$user_email','$user_password'
 $sql_execute=mysqli_query($con,$insert_query);
 if($sql_execute){
     echo "<script>alert('Data inserted successfully'</script>";
-}else
+}else{
+    die(mysqli_error($con));
+}
 }
 
 ?>
