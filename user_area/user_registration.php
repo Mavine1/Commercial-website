@@ -114,5 +114,7 @@ user_address,user_mobile) values ('$user_name','$user_email','$hash_password'
 $sql_execute=mysqli_query($con,$insert_query);
 }
 //selecting cart items
+select_cart_items="select * from cart_details where ip_address='$user_ip'";
+
 }
 ?>
