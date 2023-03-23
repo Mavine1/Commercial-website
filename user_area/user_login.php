@@ -64,11 +64,11 @@ if(isset($_POST['user_login'])){
     }else{
       echo "<script>alert('invalid credentials')</script>";
   }
-    }
+    }else{
 
-  }else{
     echo "<script>alert('invalid credentials')</script>";
   }
+}
 
 
 ?>
