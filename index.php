@@ -78,9 +78,15 @@ cart();
   <li class="nav-item">
           <a class="nav-link" href="#">Welcome Guest</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./user_area/user_login.php">Login</a>
-        </li>
+        <?php
+        if(!isset($_SESSION['username'])){
+           echo "<li class='nav-item'>
+           <a class='nav-link' href='./user_area/user_login.php'>Login</a>";
+        }else{
+          echo "<li class='nav-item'>
+          <a class='nav-link' href='user_arealogout.php'>Logout</a>";
+        }
+        ?>
   </ul>
 </nav>
 <!---third--->
