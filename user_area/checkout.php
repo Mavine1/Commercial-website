@@ -68,11 +68,9 @@ session_start();
            <a class='nav-link' href='./user_login.php'>Logout</a>";
         }else{
           echo "<li class='nav-item'>
-          <a class='nav-link' href='#'>Login</a>";
+          <a class='nav-link' href='logout.php'>Login</a>";
         }
         ?>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Login</a>
         </li>
   </ul>
 </nav>
