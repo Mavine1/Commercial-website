@@ -79,10 +79,10 @@ cart();
         <?php
          if(!isset($_SESSION['username'])){
             echo "<li class='nav-item'>
-            <a class='nav-link' href='#'>Welcome </a>";
+            <a class='nav-link' href='#'>Welcome Guest</a>";
          }else{
            echo "<li class='nav-item'>
-           <a class='nav-link' href='#'>Logout</a>";
+           <a class='nav-link' href='#'>Welcome ".$_session['username']."</a>";
          }
          ?>
 
