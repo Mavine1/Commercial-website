@@ -77,6 +77,14 @@ cart();
   <ul class="navbar-nav me-auto">
   
         <?php
+         if(!isset($_SESSION['username'])){
+            echo "<li class='nav-item'>
+            <a class='nav-link' href='#'>Welcome </a>";
+         }else{
+           echo "<li class='nav-item'>
+           <a class='nav-link' href='#'>Logout</a>";
+         }
+         ?>
 
         if(!isset($_SESSION['username'])){
            echo "<li class='nav-item'>
