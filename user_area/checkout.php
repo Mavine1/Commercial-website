@@ -64,8 +64,8 @@ session_start();
         </li>
         <?php
         if(!isset($_SESSION['username'])){
-           echo "<li class='nav-item">
-           <a class="nav-link" href="#">Login</a>";
+           echo "<li class='nav-item'>
+           <a class='nav-link' href='#'>Logu</a>";
         }
         ?>
         <li class="nav-item">
