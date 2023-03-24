@@ -63,7 +63,10 @@ session_start();
           <a class="nav-link" href="#">Welcome Guest</a>
         </li>
         <?php
-        if(!!$_SESSION['username'])
+        if(!isset($_SESSION['username'])){
+           echo "<li class='nav-item">
+           <a class="nav-link" href="#">Login</a>";
+        }
         ?>
         <li class="nav-item">
           <a class="nav-link" href="#">Login</a>
