@@ -62,7 +62,9 @@ session_start();
   <li class="nav-item">
           <a class="nav-link" href="#">Welcome Guest</a>
         </li>
-        
+        <?php
+        if(!$_)
+        ?>
         <li class="nav-item">
           <a class="nav-link" href="#">Login</a>
         </li>
