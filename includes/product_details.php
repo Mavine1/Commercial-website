@@ -2,6 +2,7 @@
 <?php
 include('../includes/connect.php');
 include('../admin_area/functions/common_function.php');
+session_start();
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -154,10 +155,15 @@ cart();
   <li class="nav-item">
           <a class="nav-link" href="#">Welcome Guest</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Login</a>
-        </li>
-  </ul>
+        <?php
+        if(!isset($_SESSION['username'])){
+           echo "<li class='nav-item'>
+           <a class='nav-link' href='./user_login.php'>Login</a>";
+        }else{
+          echo "<li class='nav-item'>
+          <a class='nav-link' href='logout.php'>Logout</a>";
+        }
+        ?>
 </nav>
 <!---third--->
 <div class="bg-light">
