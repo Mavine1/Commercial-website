@@ -65,7 +65,10 @@ session_start();
         <?php
         if(!isset($_SESSION['username'])){
            echo "<li class='nav-item'>
-           <a class='nav-link' href='#'>Logu</a>";
+           <a class='nav-link' href='./user_login.php'>Logout</a>";
+        }else{
+          echo "<li class='nav-item'>
+          <a class='nav-link' href='#'>Login</a>";
         }
         ?>
         <li class="nav-item">
