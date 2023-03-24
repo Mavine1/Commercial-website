@@ -70,15 +70,23 @@ cart();
 <nav class="navbar navbar-expand-lg navbar-dark  bg-secondary">
   <ul class="navbar-nav me-auto">
   <li class="nav-item">
-          <a class="nav-link" href="#">Welcome Guest</a>
-        </li>
-        <?php
+        
+  <?php
+         if(!isset($_SESSION['username'])){
+            echo "<li class='nav-item'>
+            <a class='nav-link' href='#'>Welcome Guest</a>";
+         }else{
+           echo "<li class='nav-item'>
+           <a class='nav-link' href='#'>Welcome ".$_session['username']."</a>";
+         }
+         ?>
+
         if(!isset($_SESSION['username'])){
            echo "<li class='nav-item'>
-           <a class='nav-link' href='./user_login.php'>Login</a>";
+           <a class='nav-link' href='./user_area/user_login.php'>Login</a>";
         }else{
           echo "<li class='nav-item'>
-          <a class='nav-link' href='logout.php'>Logout</a>";
+          <a class='nav-link' href='user_arealogout.php'>Logout</a>";
         }
         ?>
   </ul>
