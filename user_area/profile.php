@@ -118,16 +118,16 @@ cart();
    <a class="nav-link text-light" href="#"><h4>Pending orders</h4></a>
             </li>
             <li class ="nav-item bg-info">
-   <a class="nav-link text-light" href="#"><h4>Edit account</h4></a>
+   <a class="nav-link text-light" href="#"><h4>Edit Account</h4></a>
             </li>
             <li class ="nav-item bg-info">
    <a class="nav-link text-light" href="#"><h4>My orders</h4></a>
             </li>
             <li class ="nav-item bg-info">
-   <a class="nav-link text-light" href="#"><h4>your profile</h4></a>
+   <a class="nav-link text-light" href="#"><h4>Delete Account</h4></a>
             </li>
             <li class ="nav-item bg-info">
-   <a class="nav-link text-light" href="#"><h4>your profile</h4></a>
+   <a class="nav-link text-light" href="#"><h4>Log Out</h4></a>
             </li>
         </ul>
     </div>
