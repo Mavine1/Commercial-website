@@ -108,13 +108,13 @@ cart();
 </div>
 <!--fourth child-->
 <div class="row">
-    <div class="col-md-2 p-0">
-        <ul class="navbar-nav bg-secondary text-center">
+    <div class="col-md-2 ">
+        <ul class="navbar-nav bg-secondary text-center style="height:100vh">
             <li class ="nav-item bg-info">
    <a class="nav-link text-light" href="#"><h4>your profile</a>
             </li>
-            <li class ="nav-item bg-info">
-               <img src="../images/dairy.png" class="profile_img" alt="">
+            <li class ="nav-item ">
+               <img src="../images/dairy.png" class="profile_img my-4" alt="">
             </li>
             <li class ="nav-item ">
    <a class="nav-link text-light" href="#">Pending orders</a>
