@@ -13,7 +13,9 @@ include('../functions/common_function.php');
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 </head>
 <style>
-    
+img{
+    width:100%;
+}
 </style>
 <body>
    <div class="container">
@@ -23,7 +25,7 @@ include('../functions/common_function.php');
         <a href="order.php" ><img src="../images/apple.png" alt=""></a>
     </div>
     <div class="col-md-6">
-        <a href="order.php" ><img src="../images/apple.png" alt=""></a>   
+        <a href="order.php" ><H2>Pay offline</H2></a>   
     </div>
     </div>
    </div>
