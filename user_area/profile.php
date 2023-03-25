@@ -116,7 +116,7 @@ cart();
             </li>
           <?php
           $username=$_SESSION['username'];
-          
+          $user_image="select *"
             ?>
 
             <li class ="nav-item ">
