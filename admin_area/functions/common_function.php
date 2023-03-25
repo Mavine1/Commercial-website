@@ -379,6 +379,10 @@ function cart_item(){
   }
 
   //get user order details
-  
+  function get_user_order_details(){
+    global $con;
+    $username=$_SESSION['username'];
+    $get_details="select "
+  }
 ?>
 
