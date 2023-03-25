@@ -16,6 +16,8 @@ while($row_price=mysqli_fetch_array($result_cart_price)){
     $select_product="select * from products where 
     Product_id=$product_id";
     $run_price=mysqli_query($con,$select_products);
-    while($row_product_price=mysqli_fetch_array())
+    while($row_product_price=mysqli_fetch_array($run_price)){
+        
+    }
 }
 ?>
