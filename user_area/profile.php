@@ -120,7 +120,8 @@ cart();
           $user_image=mysqli_query($con,$user_image);
           $row_image=mysqli_fetch_array($user_image);
           $user_image=$row_image['user_image'];
-          echo ""
+          echo "<li class ="nav-item">
+          <img src='../images/dairy.png' class='profile+
 
 
             ?>
