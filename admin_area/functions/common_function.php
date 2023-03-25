@@ -392,7 +392,10 @@ function cart_item(){
             $get_orders="select * from user_orders where user_id=$user_id
             and order_status='pending' ";
             $result_order_query=mysqli_query($con,$get_orders);
-            $row_count=mysqli_num_rows($)
+            $row_count=mysqli_num_rows($result_order_query);
+            if($row_count>0){
+              echo "<h3"</h3
+            }
           }
         }
       }
