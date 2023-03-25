@@ -116,19 +116,19 @@ cart();
             <li class ="nav-item bg-info">
                <img src="../images/dairy.png" class="profile_img" alt="">
             </li>
-            <li class ="nav-item bg-info">
+            <li class ="nav-item ">
    <a class="nav-link text-light" href="#">Pending orders</a>
             </li>
-            <li class ="nav-item bg-info">
+            <li class ="nav-item ">
    <a class="nav-link text-light" href="#">Edit Account</a>
             </li>
-            <li class ="nav-item bg-info">
+            <li class ="nav-item ">
    <a class="nav-link text-light" href="#">My orders</a>
             </li>
-            <li class ="nav-item bg-info">
-   <a class="nav-link text-light" href="#">Delete Account></a>
+            <li class ="nav-item ">
+   <a class="nav-link text-light" href="#">Delete Account</a>
             </li>
-            <li class ="nav-item bg-info">
+            <li class ="nav-item ">
    <a class="nav-link text-light" href="#">Log Out</a>
             </li>
         </ul>
