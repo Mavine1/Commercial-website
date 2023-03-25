@@ -108,6 +108,9 @@ cart();
                 <a class="nav-link text-light" aria-current="page" href=
                 "#"><h4>your profile</h4></a>
             </li>
+            <li class ="nav-item bg-info">
+               <img src="../images/dairy.png" alt="">
+            </li>
         </ul>
     </div>
     <div class="col-md-10"></div>
