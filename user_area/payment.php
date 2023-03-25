@@ -13,6 +13,8 @@ include('../functions/common_function.php');
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 </head>
 <body>
-   <h1>Payment</h1> 
+   <div class="container">
+    <h2 class="text-center text-info">payment options
+   </div>
 </body>
 </html>
