@@ -134,13 +134,13 @@ cart();
    <a class="nav-link text-light" href="profile.php">Pending orders</a>
             </li>
             <li class ="nav-item ">
-   <a class="nav-link text-light" href="profile.php?">Edit Account</a>
+   <a class="nav-link text-light" href="profile.php?edit_account">Edit Account</a>
             </li>
             <li class ="nav-item ">
-   <a class="nav-link text-light" href="#">My orders</a>
+   <a class="nav-link text-light" href="profile.php?my_orders">My orders</a>
             </li>
             <li class ="nav-item ">
-   <a class="nav-link text-light" href="#">Delete Account</a>
+   <a class="nav-link text-light" href="profile.php?delete_account">Delete Account</a>
             </li>
             <li class ="nav-item ">
    <a class="nav-link text-light" href="#">Log Out</a>
