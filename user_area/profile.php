@@ -117,7 +117,6 @@ cart();
         </ul>
     </div>
     <div class="col-md-10"></div>
-
 </div>
 
 <!---footer-->
