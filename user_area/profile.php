@@ -116,7 +116,7 @@ cart();
             </li>
           <?php
           $user_username=$_SESSION['username'];
-          $user_image="select * from user_table where username='$username'";
+          $user_image="select * from user_table where username='$user_username'";
           $user_image=mysqli_query($con,$user_image);
           $row_image=mysqli_fetch_array($user_image);
           $user_image=$row_image['user_image'];
