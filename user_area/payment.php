@@ -20,7 +20,7 @@ img{
 <body>
    <div class="container">
     <h2 class="text-center text-info">payment options</h2>
-    <div class="row">
+    <div class="row d-flex justify-content align">
         <div class="col-md-6">
         <a href="order.php" ><img src="../images/apple.png" alt=""></a>
     </div>
