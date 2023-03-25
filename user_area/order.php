@@ -41,6 +41,9 @@ if($quantity==0){
 }
 $insert_orders="Insert into user_orders (user_id,amount_due,invoice_number,total_products,order_date,order_status)
 values ($user_id,$subtotal,$invoice_number,$count_products,now()
-'$status')"
-$resu=mysqli_query($con,$insert_orders);
+'$status')";
+$result_query=mysqli_query($con,$insert_orders);
+if($result_query){
+    echo "<script>alert('Orders are "
+}
 ?>
