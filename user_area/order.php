@@ -33,6 +33,10 @@ $get_item_quantity=mysqli_fetch_array($run_cart);
 $quantity=$get_item_quantity['quantity'];
 if($quantity==0){
     $quantity=1;
-    $subt
+    $subtotal=$total_price;
+
+}else{
+    $quantity=$quantity;
+    $subtotal=$total_price*$quantity;
 }
 ?>
