@@ -39,5 +39,6 @@ if($quantity==0){
     $quantity=$quantity;
     $subtotal=$total_price*$quantity;
 }
-$insert_orders="Insert into user_orders (user_id,amount_due,invoice"
+$insert_orders="Insert into user_orders (user_id,amount_due,invoice_number,total_products,order_date,order_status)
+values ($user_id,$subtotal,$invoice_number,$count_products,"
 ?>
