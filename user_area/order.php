@@ -10,5 +10,6 @@ $total_price=0;
 $cart_query_price="select *from cart_details 
 where ip_address='$get_ip_address'";
 $result_cart_price=mysqli_query($con,$cart_query_pride);
-
+$
+while($row_price=mysqli_fetch_array($result_cart_price))
 ?>
