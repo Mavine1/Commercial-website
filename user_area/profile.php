@@ -143,7 +143,7 @@ cart();
    <a class="nav-link text-light" href="profile.php?delete_account">Delete Account</a>
             </li>
             <li class ="nav-item ">
-   <a class="nav-link text-light" href="#">Log Out</a>
+   <a class="nav-link text-light" href="logout.php">Log Out</a>
             </li>
         </ul>
     </div>
