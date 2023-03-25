@@ -49,6 +49,7 @@ if($result_query){
 }
 //orders pending
 $insert_pending_orders="Insert into orders_pending (user_id,invoice_number,product_id,quantity,order_status)
-values ($user_id,$invoice_number,$count_products,now()
+values ($user_id,$invoice_number,$product_id,$quantity,
 '$status')";
+$result_pending_orders=my
 ?>
