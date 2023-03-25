@@ -45,13 +45,13 @@ session_start();
           <a class="nav-link" href="../display_all.php">Products</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="./user_area/user_registration.php">Register</a>
+          <a class="nav-link" href="profile.php">Account</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Contact</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="cart.php"><i class="fa-solid fa-cart-shopping"></i><sup><?php
+          <a class="nav-link" href="../cart.php"><i class="fa-solid fa-cart-shopping"></i><sup><?php
           cart_item();?></sup></a>
           <li class="nav-item">
           <a class="nav-link" href="#"> total price: <?php total_cart_price();?>/-</a>
