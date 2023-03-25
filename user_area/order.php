@@ -51,5 +51,5 @@ if($result_query){
 $insert_pending_orders="Insert into orders_pending (user_id,invoice_number,product_id,quantity,order_status)
 values ($user_id,$invoice_number,$product_id,$quantity,
 '$status')";
-$result_pending_orders=my
+$result_pending_orders=mysqli_query($con,$insert_pending_orders);
 ?>
