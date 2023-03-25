@@ -108,7 +108,7 @@ cart();
    <a class="nav-link text-light" href="#"><h4>your profile</h4></a>
             </li>
             <li class ="nav-item bg-info">
-               <img src="../images/dairy.png" alt="">
+               <img src="../images/dairy.png" class="profile_img" alt="">
             </li>
         </ul>
     </div>
