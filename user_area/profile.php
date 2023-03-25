@@ -112,7 +112,7 @@ cart();
     <div class="col-md-2 ">
         <ul class="navbar-nav bg-secondary text-center" style="height:100vh">
             <li class ="nav-item bg-info">
-   <a class="nav-link text-light" href="#"><h4>your profile</a>
+   <a class="nav-link text-light" href="#">your profile</a>
             </li>
             <li class ="nav-item ">
                <img src="../images/dairy.png" class="profile_img my-4" alt="">
