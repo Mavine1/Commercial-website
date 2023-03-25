@@ -115,6 +115,8 @@ cart();
    <a class="nav-link text-light" href="#">your profile</a>
             </li>
           <?php
+          $username=$_SESSION['username'];
+            ?>
             
             <li class ="nav-item ">
                <img src="../images/dairy.png" class="profile_img my-4" alt="">
