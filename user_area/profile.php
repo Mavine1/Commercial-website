@@ -121,7 +121,7 @@ cart();
           $row_image=mysqli_fetch_array($user_image);
           $user_image=$row_image['user_image'];
           echo "<li class ='nav-item'>
-          <img src='../images/dairy.png' class='profile_img my-4' alt=''
+          <img src='./user_images/$user_image' class='profile_img my-4' alt=''
           ></li>";
 
 
