@@ -21,7 +21,10 @@ session_start();
      <!---Css-->
     <link rel="stylesheet" href="style.css">
     <style>
-      
+      .logo{
+        width:7%;
+        height:7%;
+      }
     </style>
     </head>
 <body>
