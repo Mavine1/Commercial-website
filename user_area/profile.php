@@ -102,7 +102,9 @@ cart();
 </div>
 <!--fourth child-->
 <div class="row">
-    <div class="col-md-2"></div>
+    <div class="col-md-2 p-0">
+        <ul>class=</ul>
+    </div>
     <div class="col-md-10"></div>
 
 </div>
