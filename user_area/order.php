@@ -25,4 +25,7 @@ while($row_price=mysqli_fetch_array($result_cart_price)){
       
     }
 }
+
+// getting quantity from cart
+$get
 ?>
