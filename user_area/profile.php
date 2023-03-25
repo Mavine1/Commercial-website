@@ -116,7 +116,8 @@ cart();
             </li>
           <?php
           $username=$_SESSION['username'];
-          $user_image="select *"
+          $user_image="select * from user_table where username='$username'";
+          $result_image=mysqli_query($con,$)
             ?>
 
             <li class ="nav-item ">
