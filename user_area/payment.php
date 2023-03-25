@@ -20,12 +20,12 @@ img{
 <body>
    <div class="container">
     <h2 class="text-center text-info">payment options</h2>
-    <div class="row d-flex justify-content align">
+    <div class="row d-flex justify-content align-items-center my-5">
         <div class="col-md-6">
         <a href="order.php" ><img src="../images/apple.png" alt=""></a>
     </div>
     <div class="col-md-6">
-        <a href="order.php" ><H2>Pay offline</H2></a>   
+        <a href="order.php" ><H2 class="text_center">Pay offline</H2></a>   
     </div>
     </div>
    </div>
