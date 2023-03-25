@@ -47,4 +47,8 @@ if($result_query){
     echo "<script>alert('Orders are submitted successfully')</script>";
     echo "<script>alert(window.open('profile.php','_self')</script>";
 }
+//orders pending
+$insert_pending_orders="Insert into orders_pending (user_id,invoice_number,total_products,order_date,order_status)
+values ($user_id,$subtotal,$invoice_number,$count_products,now()
+'$status')";
 ?>
