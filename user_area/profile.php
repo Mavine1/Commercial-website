@@ -104,8 +104,9 @@ cart();
 <div class="row">
     <div class="col-md-2 p-0">
         <ul class="navbar-nav bg-secondary text-center">
-            <li class ="nav-item">
-                <a class="
+            <li class ="nav-item bg-info">
+                <a class="nav-link " aria-current="page" href=
+                "#">home</a>
             </li>
         </ul>
     </div>
