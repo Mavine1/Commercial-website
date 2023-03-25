@@ -28,7 +28,8 @@ session_start();
     width: 100%;
     margin: auto;
     display: block;
-    height:100%;
+    /*height:100%;*/
+    object-fit: contain;
 }
 </style>
     </head>
@@ -109,7 +110,7 @@ cart();
 <!--fourth child-->
 <div class="row">
     <div class="col-md-2 ">
-        <ul class="navbar-nav bg-secondary text-center style="height:100vh">
+        <ul class="navbar-nav bg-secondary text-center" style="height:100vh">
             <li class ="nav-item bg-info">
    <a class="nav-link text-light" href="#"><h4>your profile</a>
             </li>
