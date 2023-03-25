@@ -45,6 +45,6 @@ values ($user_id,$subtotal,$invoice_number,$count_products,now()
 $result_query=mysqli_query($con,$insert_orders);
 if($result_query){
     echo "<script>alert('Orders are submitted successfully')</script>";
-    echo "<script>alert('window.open('profile.php')</script>";
+    echo "<script>alert(window.open('profile.php','_self')</script>";
 }
 ?>
