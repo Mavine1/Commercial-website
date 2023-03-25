@@ -117,13 +117,13 @@ cart();
                <img src="../images/dairy.png" class="profile_img" alt="">
             </li>
             <li class ="nav-item bg-info">
-   <a class="nav-link text-light" href="#"><h4>Pending orders</a>
+   <a class="nav-link text-light" href="#">Pending orders</a>
             </li>
             <li class ="nav-item bg-info">
-   <a class="nav-link text-light" href="#"><h4>Edit Account</a>
+   <a class="nav-link text-light" href="#">Edit Account</a>
             </li>
             <li class ="nav-item bg-info">
-   <a class="nav-link text-light" href="#"><h4>My orders</a>
+   <a class="nav-link text-light" href="#">My orders</a>
             </li>
             <li class ="nav-item bg-info">
    <a class="nav-link text-light" href="#">Delete Account></a>
