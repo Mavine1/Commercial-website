@@ -23,7 +23,8 @@ img{
 <?php
 $user_ip=getIPAddress();
 $get_user="select *from user_table where user_ip=$user_ip";
-$result=mysqli_query($con,$get_user)
+$result=mysqli_query($con,$get_user);
+$run_query=mysqli_fetch_array($result);
 
 ?>
    <div class="container">
