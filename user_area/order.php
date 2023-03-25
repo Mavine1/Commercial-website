@@ -52,4 +52,7 @@ $insert_pending_orders="Insert into orders_pending (user_id,invoice_number,produ
 values ($user_id,$invoice_number,$product_id,$quantity,
 '$status')";
 $result_pending_orders=mysqli_query($con,$insert_pending_orders);
+
+//deleting from the cart
+
 ?>
