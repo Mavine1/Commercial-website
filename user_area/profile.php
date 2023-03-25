@@ -39,10 +39,10 @@ session_start();
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index.php">Home</a>
+          <a class="nav-link active" aria-current="page" href="../index.php">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="display_all.php">Products</a>
+          <a class="nav-link" href="../display_all.php">Products</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="./user_area/user_registration.php">Register</a>
@@ -100,12 +100,6 @@ cart();
   <h3 class="text-center">Store</h3>
   <p class="text-center">Communication is the heart of E-commerce and community</p>
 </div>
-<!--fourth-->
-<div class="row px-1">
-  <div class="col md-10">
-    <!--products-->
-<div class="row">
-   <!--fetching data-->
 
 <!---footer-->
 <!--include footer-->
