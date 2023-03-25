@@ -388,7 +388,9 @@ function cart_item(){
       $user_id=$row_query['user_id'];
       if(!isset($_GET['edit_account'])){
         if(!isset($_GET['my_orders'])){
-          if(!isset($_GET['delete_accoun']))
+          if(!isset($_GET['delete_account'])){
+            $get_orders="select * from user_orders where user_id=$user_id"
+          }
         }
       }
     }
