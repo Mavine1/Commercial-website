@@ -394,7 +394,7 @@ function cart_item(){
             $result_order_query=mysqli_query($con,$get_orders);
             $row_count=mysqli_num_rows($result_order_query);
             if($row_count>0){
-              echo "<h3"</h3
+              echo "<h3>you have <span class='text-danger'></h3>";
             }
           }
         }
