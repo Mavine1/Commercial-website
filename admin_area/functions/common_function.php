@@ -386,7 +386,9 @@ function cart_item(){
     $result_query=mysqli_query($con,$get_details);
     while($row_query=mysqli_fetch_array($result_query)){
       $user_id=$row_query['user_id'];
-      
+      if(!sset($_GET['edit_account'])){
+        
+      }
     }
   }
 ?>
