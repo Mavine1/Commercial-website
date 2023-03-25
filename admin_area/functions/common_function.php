@@ -389,7 +389,8 @@ function cart_item(){
       if(!isset($_GET['edit_account'])){
         if(!isset($_GET['my_orders'])){
           if(!isset($_GET['delete_account'])){
-            $get_orders="select * from user_orders where user_id=$user_id"
+            $get_orders="select * from user_orders where user_id=$user_id
+            and order_status='pending' ";
           }
         }
       }
