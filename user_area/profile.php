@@ -31,7 +31,7 @@ session_start();
 <div class="container-fluid p-0">
 <nav class="navbar navbar-expand-lg bg-info">
   <div class="container-fluid">
-    <img src="./images/logo.png" alt="" class="logo">
+    <img src="../images/logo.png" alt="" class="logo">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -90,7 +90,7 @@ cart();
            <a class='nav-link' href='./user_area/user_login.php'>Login</a>";
         }else{
           echo "<li class='nav-item'>
-          <a class='nav-link' href='user_arealogout.php'>Logout</a>";
+          <a class='nav-link' href='user_area_logout.php'>Logout</a>";
         }
         ?>
   </ul>
