@@ -115,7 +115,7 @@ cart();
    <a class="nav-link text-light" href="#">your profile</a>
             </li>
           <?php
-          $username=$_SESSION['username'];
+          $user_username=$_SESSION['username'];
           $user_image="select * from user_table where username='$username'";
           $user_image=mysqli_query($con,$user_image);
           $row_image=mysqli_fetch_array($user_image);
