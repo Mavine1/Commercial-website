@@ -103,7 +103,11 @@ cart();
 <!--fourth child-->
 <div class="row">
     <div class="col-md-2 p-0">
-        <ul>class=</ul>
+        <ul class="navbar-nav bg-secondary text-center">
+            <li class ="nav-item">
+                <a class="
+            </li>
+        </ul>
     </div>
     <div class="col-md-10"></div>
 
