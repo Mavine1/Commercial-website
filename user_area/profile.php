@@ -100,6 +100,7 @@ cart();
   <h3 class="text-center">Store</h3>
   <p class="text-center">Communication is the heart of E-commerce and community</p>
 </div>
+<!--fourth child-->$_COOKIE
 
 <!---footer-->
 <!--include footer-->
