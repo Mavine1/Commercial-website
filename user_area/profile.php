@@ -111,25 +111,25 @@ cart();
     <div class="col-md-2 p-0">
         <ul class="navbar-nav bg-secondary text-center">
             <li class ="nav-item bg-info">
-   <a class="nav-link text-light" href="#"><h4>your profile</h4></a>
+   <a class="nav-link text-light" href="#"><h4>your profile</a>
             </li>
             <li class ="nav-item bg-info">
                <img src="../images/dairy.png" class="profile_img" alt="">
             </li>
             <li class ="nav-item bg-info">
-   <a class="nav-link text-light" href="#"><h4>Pending orders</h4></a>
+   <a class="nav-link text-light" href="#"><h4>Pending orders</a>
             </li>
             <li class ="nav-item bg-info">
-   <a class="nav-link text-light" href="#"><h4>Edit Account</h4></a>
+   <a class="nav-link text-light" href="#"><h4>Edit Account</a>
             </li>
             <li class ="nav-item bg-info">
-   <a class="nav-link text-light" href="#"><h4>My orders</h4></a>
+   <a class="nav-link text-light" href="#"><h4>My orders</a>
             </li>
             <li class ="nav-item bg-info">
-   <a class="nav-link text-light" href="#"><h4>Delete Account</h4></a>
+   <a class="nav-link text-light" href="#">Delete Account></a>
             </li>
             <li class ="nav-item bg-info">
-   <a class="nav-link text-light" href="#"><h4>Log Out</h4></a>
+   <a class="nav-link text-light" href="#">Log Out</a>
             </li>
         </ul>
     </div>
