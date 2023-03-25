@@ -384,7 +384,10 @@ function cart_item(){
     $username=$_SESSION['username'];
     $get_details="select * from user_table where username='$username'";
     $result_query=mysqli_query($con,$get_details);
-    
+    while($row_query=mysqli_fetch_array($result_query)){
+      $user_id=$row_query['user_id'];
+      
+    }
   }
 ?>
 
