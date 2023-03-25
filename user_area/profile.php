@@ -105,8 +105,7 @@ cart();
     <div class="col-md-2 p-0">
         <ul class="navbar-nav bg-secondary text-center">
             <li class ="nav-item bg-info">
-                <a class="nav-link text-light" aria-current="page" href=
-                "#"><h4>your profile</h4></a>
+   <a class="nav-link text-light" href="#"><h4>your profile</h4></a>
             </li>
             <li class ="nav-item bg-info">
                <img src="../images/dairy.png" alt="">
