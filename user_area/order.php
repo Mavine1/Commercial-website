@@ -54,5 +54,6 @@ values ($user_id,$invoice_number,$product_id,$quantity,
 $result_pending_orders=mysqli_query($con,$insert_pending_orders);
 
 //deleting from the cart
+$empty_cart="Delete from cart_details where ip_address='$get_ip_"
 
 ?>
