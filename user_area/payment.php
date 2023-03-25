@@ -14,7 +14,10 @@ include('../functions/common_function.php');
 </head>
 <body>
    <div class="container">
-    <h2 class="text-center text-info">payment options
+    <h2 class="text-center text-info">payment options</h2>
+    <div class="row">
+        <a href="https:www.paypal.com"><img src="" alt
+    </div>
    </div>
 </body>
 </html>
