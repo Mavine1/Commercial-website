@@ -381,8 +381,8 @@ function cart_item(){
   //get user order details
   function get_user_order_details(){
     global $con;
-    $username=$_SESSION['username'];
-    $get_details="select * from user_table where username='$username'";
+    $user_username=$_SESSION['username'];
+    $get_details="select * from user_table where username='$user_username'";
     $result_query=mysqli_query($con,$get_details);
     while($row_query=mysqli_fetch_array($result_query)){
       $user_id=$row_query['user_id'];
