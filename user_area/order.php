@@ -13,6 +13,8 @@ $result_cart_price=mysqli_query($con,$cart_query_pride);
 $count_products=mysqli_num_rows($result_cart_price);
 while($row_price=mysqli_fetch_array($result_cart_price)){
     $product_id=$row_price['Product_id'];
-    $select_product="select * from products where Product_id=$product_id";
+    $select_product="select * from products where 
+    Product_id=$product_id";
+    $run_price=
 }
 ?>
