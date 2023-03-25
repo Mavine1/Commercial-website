@@ -18,6 +18,8 @@ img{
 }
 </style>
 <body>
+
+<!--php code to access 
    <div class="container">
     <h2 class="text-center text-info">payment options</h2>
     <div class="row d-flex justify-content align-items-center my-5">
