@@ -17,7 +17,7 @@ include('../functions/common_function.php');
     <h2 class="text-center text-info">payment options</h2>
     <div class="row">
         <div class="col-md-6">
-        <a href="https:www.paypal.com" target="_blank"><img src="../images/apple.png" alt=""></a>
+        <a href="order.php" >pay offline</a>
     </div>
     </div>
    </div>
