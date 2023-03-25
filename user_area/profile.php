@@ -114,6 +114,8 @@ cart();
             <li class ="nav-item bg-info">
    <a class="nav-link text-light" href="#">your profile</a>
             </li>
+          <?php
+            
             <li class ="nav-item ">
                <img src="../images/dairy.png" class="profile_img my-4" alt="">
             </li>
