@@ -16,8 +16,9 @@ include('../functions/common_function.php');
    <div class="container">
     <h2 class="text-center text-info">payment options</h2>
     <div class="row">
-        <div class="col-md-6"></div>
+        <div class="col-md-6">
         <a href="https:www.paypal.com" target="_blank"><img src="../images/apple.png" alt=""></a>
+    </div>
     </div>
    </div>
 </body>
