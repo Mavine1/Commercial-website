@@ -394,7 +394,7 @@ function cart_item(){
             $result_order_query=mysqli_query($con,$get_orders);
             $row_count=mysqli_num_rows($result_order_query);
             if($row_count>0){
-              echo "<h3 class='text-center'>you have <span class='text-danger'>$row_count</span>pending orders</h3>";
+              echo "<h3 class='text-center' 'text-success' my-5 >you have <span class='text-danger'>$row_count</span>pending orders</h3>";
 
             }
           }
