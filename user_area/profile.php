@@ -24,6 +24,10 @@ session_start();
   body{
     overflow-x:hidden;
   }
+  .profile_img{
+    width: 100%;
+    height:100%;
+}
 </style>
     </head>
 <body>
