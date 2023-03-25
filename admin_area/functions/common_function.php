@@ -382,7 +382,9 @@ function cart_item(){
   function get_user_order_details(){
     global $con;
     $username=$_SESSION['username'];
-    $get_details="select "
+    $get_details="select * from user_table where username='$username'";
+    $result_query=mysqli_query($con,$get_details);
+    
   }
 ?>
 
