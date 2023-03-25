@@ -26,6 +26,8 @@ session_start();
   }
   .profile_img{
     width: 100%;
+    margin: auto;
+    display: block;
     height:100%;
 }
 </style>
