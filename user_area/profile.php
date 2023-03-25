@@ -105,8 +105,8 @@ cart();
     <div class="col-md-2 p-0">
         <ul class="navbar-nav bg-secondary text-center">
             <li class ="nav-item bg-info">
-                <a class="nav-link " aria-current="page" href=
-                "#">home</a>
+                <a class="nav-link text-light" aria-current="page" href=
+                "#"><h4>your profile</h4></a>
             </li>
         </ul>
     </div>
