@@ -377,4 +377,8 @@ function cart_item(){
     }
     echo $total_price;
   }
+
+  //get user order details
+  
 ?>
+
