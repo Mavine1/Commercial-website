@@ -114,6 +114,21 @@ cart();
             <li class ="nav-item bg-info">
                <img src="../images/dairy.png" class="profile_img" alt="">
             </li>
+            <li class ="nav-item bg-info">
+   <a class="nav-link text-light" href="#"><h4>Pending orders</h4></a>
+            </li>
+            <li class ="nav-item bg-info">
+   <a class="nav-link text-light" href="#"><h4>Edit account</h4></a>
+            </li>
+            <li class ="nav-item bg-info">
+   <a class="nav-link text-light" href="#"><h4>My orders</h4></a>
+            </li>
+            <li class ="nav-item bg-info">
+   <a class="nav-link text-light" href="#"><h4>your profile</h4></a>
+            </li>
+            <li class ="nav-item bg-info">
+   <a class="nav-link text-light" href="#"><h4>your profile</h4></a>
+            </li>
         </ul>
     </div>
     <div class="col-md-10"></div>
