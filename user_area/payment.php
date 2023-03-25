@@ -17,7 +17,7 @@ img{
     width:90%;
     margin:auto;
     display:block;
-    
+
 }
 </style>
 <body>
@@ -36,7 +36,8 @@ $user_id=$run_query['user_id'];
     <h2 class="text-center text-info">payment options</h2>
     <div class="row d-flex justify-content align-items-center my-5">
         <div class="col-md-6">
-        <a href="order.php" ><img src="../images/apple.png" alt=""></a>
+        <a href="order.php" >
+        <img src="../images/apple.png" alt="" class="payment_imge"></a>
     </div>
     <div class="col-md-6">
         <a href="order.php?user_id=<?php echo $user_id?>" ><H2 class="text_center">Pay offline</H2></a>   
