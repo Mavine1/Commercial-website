@@ -34,7 +34,7 @@ $run_query=mysqli_fetch_array($result);
         <a href="order.php" ><img src="../images/apple.png" alt=""></a>
     </div>
     <div class="col-md-6">
-        <a href="order.php" ><H2 class="text_center">Pay offline</H2></a>   
+        <a href="order.php?user_id=<?php echo $user_id?>" ><H2 class="text_center">Pay offline</H2></a>   
     </div>
     </div>
    </div>
