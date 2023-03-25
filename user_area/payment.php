@@ -13,7 +13,7 @@ include('../functions/common_function.php');
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 </head>
 <style>
-img{
+.payment_img{
     width:90%;
     margin:auto;
     display:block;
@@ -37,7 +37,7 @@ $user_id=$run_query['user_id'];
     <div class="row d-flex justify-content align-items-center my-5">
         <div class="col-md-6">
         <a href="order.php" >
-        <img src="../images/apple.png" alt="" class="payment_imge"></a>
+        <img src="../images/apple.png" alt="" class="payment_img"></a>
     </div>
     <div class="col-md-6">
         <a href="order.php?user_id=<?php echo $user_id?>" ><H2 class="text_center">Pay offline</H2></a>   
