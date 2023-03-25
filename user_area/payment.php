@@ -22,7 +22,9 @@ img{
 <!--php code to access user id--->
 <?php
 $user_ip=getIPAddress();
-$get_user="select *from user_table where user_ip="
+$get_user="select *from user_table where user_ip=$user_ip";
+$result=mysqli_query($con,$get_user)
+
 ?>
    <div class="container">
     <h2 class="text-center text-info">payment options</h2>
