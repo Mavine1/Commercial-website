@@ -131,10 +131,10 @@ cart();
                <img src="../images/dairy.png" class="profile_img my-4" alt="">
             </li>
             <li class ="nav-item ">
-   <a class="nav-link text-light" href="#">Pending orders</a>
+   <a class="nav-link text-light" href="profile.php">Pending orders</a>
             </li>
             <li class ="nav-item ">
-   <a class="nav-link text-light" href="#">Edit Account</a>
+   <a class="nav-link text-light" href="profile.php?">Edit Account</a>
             </li>
             <li class ="nav-item ">
    <a class="nav-link text-light" href="#">My orders</a>
