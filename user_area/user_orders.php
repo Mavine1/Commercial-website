@@ -8,7 +8,9 @@
 </head>
 <body>
     <?php
- $username=
+ $username=$_SESSION['username'];
+ $get_users="select * from user_table where username='$username'";
+ $result=mysqli_qu
     ?>
     <h3 class="text-success">all my orders</h3>
     <table class ="table table-bordered mt-5">
