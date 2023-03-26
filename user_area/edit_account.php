@@ -25,10 +25,10 @@ if(isset($_GET['edit_account'])){
     <h3 class="text-center text-success mb-4">Edit Account</h3>
     <form action="" method="post" enctype="multipart/form-data">
     <div class="form-outline mb-4">
-        <input type="text" class="form-control w-50 m-auto" name="user_username">
+        <input type="text" class="form-control w-50 m-auto" value="<?php echo $username ?>" name="user_username">
     </div>
     <div class="form-outline mb-4">
-        <input type="email" class="form-control w-50 m-auto" name="user_email">
+        <input type="email" class="form-control w-50 m-auto" value="<?php echo $username ?> name="user_email">
     </div>
     <div class="form-outline mb-4 d-flex w-50 m-auto">
         <input type="file" class="form-control w-50 m-auto" name="user_image">
