@@ -24,7 +24,7 @@
     <div class="form-outline mb-4">
         <input type="text" class="form-control w-50 m-auto" name="user_mobile">
     </div>
-    <input type="text" class="form-control w-50 m-auto" name="user_mobile">
+    <input type="text" value="update" class="bg-info py-2 px-3 border-o" name="user_mobile">
     </form>
 </body>
 </html>
