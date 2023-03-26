@@ -1,4 +1,8 @@
-<?
+<?php
+if(isset($_GET['edit_account'])){
+    $user_session_name=$_SESSION['username'];
+}
+?>
 !DOCTYPE html>
 <html lang="en">
 <head>
