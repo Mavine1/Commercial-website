@@ -13,12 +13,17 @@
         <input type="text" class="form-control w-50 m-auto" name="user_username">
     </div>
     <div class="form-outline mb-4">
-        <input type="email" class="form-control w-50 m-auto" name="user_username">
+        <input type="email" class="form-control w-50 m-auto" name="user_email">
+    </div>
+    <div class="form-outline mb-4">
+        <input type="file" class="form-control w-50 m-auto" name="user_image">
     </div>
     <div class="form-outline mb-4">
         <input type="text" class="form-control w-50 m-auto" name="user_username">
     </div>
-
+    <div class="form-outline mb-4">
+        <input type="text" class="form-control w-50 m-auto" name="user_username">
+    </div>
     </form>
 </body>
 </html>
