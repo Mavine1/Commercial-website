@@ -34,7 +34,7 @@ session_start();
 .edit_img{
   width:100px;
   height:100px;
-  obje
+  object-fit: contain;
 }
 </style>
     </head>
