@@ -9,6 +9,7 @@
 <body>
     <?php
     
+    ?>
     <h3 class="text-success">all my orders</h3>
     <table class ="table table-bordered mt-5">
         <thread class ="bg-info">
