@@ -3,6 +3,8 @@ if(isset($_GET['edit_account'])){
     $user_session_name=$_SESSION['username'];
     $select_query="select * from user_table where username='$user_session_name'
     ";
+    $result_query=mysqli_query($con,$select_query);
+    $row
 
 }
 ?>
