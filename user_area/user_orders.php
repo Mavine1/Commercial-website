@@ -38,7 +38,9 @@
                 $total_products=$row_orders['total_products'];
                 $invoice_number=$row_orders['invoice_number'];
                 $order_status=$row_orders['order_status'];
-                
+                if($order_status=='pending'){
+                    $order_status='incomplete';
+                }
                 $order_date=$row_orders['order_date'];
                 $number=1;
              echo "
