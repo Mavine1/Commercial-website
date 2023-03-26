@@ -7,16 +7,16 @@ if(isset($_GET['edit_account'])){
     $row_fetch=mysqli_fetch_assoc($result_query);
     $user_id=$row_fetch['user_id'];
     $username=$row_fetch['username'];
-    $user=$row_fetch['user_email'];
+    $user_email=$row_fetch['user_email'];
     $user_address=$row_fetch['user_address'];
     $user_mobile=$row_fetch['user_mobile'];
 
     if(isset($_POST['user_update'])){
      $update_id=$user_id;
-     $username=$row_fetch['username'];
-    $user=$row_fetch['user_email'];
-    $user_id=$row_fetch['user_address'];
-    $user_id=$row_fetch['user_mobile'];
+     $username=$_POST['username'];
+     $user_email=$_POST['user_email'];
+     $user_address=$_POST['user_address'];
+     $user_mobile=$_POST['user_mobile'];
     }
 
 }
