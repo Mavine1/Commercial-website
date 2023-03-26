@@ -397,7 +397,8 @@ function cart_item(){
               echo "<h3 class='text-center text-success nt-5 mb-2' >you have <span class='text-danger'>$row_count</span>pending orders</h3>
               <p class='text-center'><a href='profile.php?my_orders' class='text-dark'>Order Details</a></p>";
             }else{
-              
+              echo "<h3 class='text-center text-success nt-5 mb-2' >you have zero pending orders</h3>
+              <p class='text-center'><a href='../index. class='text-dark'>Order Details</a></p>";
             }
           }
         }
