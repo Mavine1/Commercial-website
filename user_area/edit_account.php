@@ -17,6 +17,7 @@
     </div>
     <div class="form-outline mb-4">
         <input type="file" class="form-control w-50 m-auto" name="user_image">
+      <img src
     </div>
     <div class="form-outline mb-4">
         <input type="text" class="form-control w-50 m-auto" name="user_address">
