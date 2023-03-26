@@ -22,7 +22,8 @@ if(isset($_GET['edit_account'])){
      move_uploaded_file($user_image_tmp,"./user_image/$user_image");
 
      //update query
-     $update_data="update user_table set username='$username'"
+     $update_data="update user_table set username='$username',user_email='$user_email'
+
 
     }
 
