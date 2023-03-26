@@ -38,17 +38,19 @@
                 $total_products=$row_data['total_products'];
                 $invoice_number=$row_data['invoice_number'];
                 $order_status=$row_data['order_status'];
+                $number=!;
              echo "
              <tr>
-             <td>1</td>
+             <td>$number</td>
              <td>100</td>
              <td>3</td>
              <td>34567</td>
              <td>23445</td>
-             <td></td>
-             <td></td>
+             <td>completed</td>
+             <td>confirm</td>
          </tr>
-             "
+             ";
+             $number++;
             }
         
             ?>
