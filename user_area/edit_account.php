@@ -17,7 +17,7 @@
     </div>
     <div class="form-outline mb-4">
         <input type="file" class="form-control w-50 m-auto" name="user_image">
-      <img src='./user_images/<?phpecho
+      <img src="./user_images/<?php echo $user_image?>" alt="">
     </div>
     <div class="form-outline mb-4">
         <input type="text" class="form-control w-50 m-auto" name="user_address">
