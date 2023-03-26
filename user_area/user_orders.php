@@ -27,7 +27,7 @@
                 <th>Status</th>
             </tr>
         </thread>
-        <tbody>
+        <tbody class= "bg-secondary text-light">
             <?php
             $get_order_details="select * from user_orders where user_id=$user_id";
             $result_order=mysqli_query($con,$get_order_details);
