@@ -41,6 +41,9 @@
                 if($order_status=='pending'){
                     $order_status='incomplete';
                 }
+                else{
+                    $order_status='complete';
+                }
                 $order_date=$row_orders['order_date'];
                 $number=1;
              echo "
