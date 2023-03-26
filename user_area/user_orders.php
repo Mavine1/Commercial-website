@@ -38,11 +38,12 @@
                 $total_products=$row_data['total_products'];
                 $invoice_number=$row_data['invoice_number'];
                 $order_status=$row_data['order_status'];
-                $number=!;
+                $order_date=$row_data['order_date'];
+                $number=1;
              echo "
              <tr>
              <td>$number</td>
-             <td>100</td>
+             <td>$amount_due</td>
              <td>3</td>
              <td>34567</td>
              <td>23445</td>
