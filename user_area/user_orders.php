@@ -37,8 +37,18 @@
                 $amount_due=$row_data['amount_due'];
                 $total_products=$row_data['total_products'];
                 $invoice_number=$row_data['invoice_number'];
-                $invoice_number=$row_data['invoice_number'];
-
+                $order_status=$row_data['order_status'];
+             echo "
+             <tr>
+             <td>1</td>
+             <td>100</td>
+             <td>3</td>
+             <td>34567</td>
+             <td>23445</td>
+             <td></td>
+             <td></td>
+         </tr>
+             "
             }
         
             ?>
