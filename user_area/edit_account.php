@@ -17,7 +17,7 @@
     </div>
     <div class="form-outline mb-4">
         <input type="file" class="form-control w-50 m-auto" name="user_image">
-      <img src="./user_images/<?php echo $user_image?>" alt="">
+      <img src="./user_images/<?php echo $user_image?>" alt="" class="profile_img">
     </div>
     <div class="form-outline mb-4">
         <input type="text" class="form-control w-50 m-auto" name="user_address">
@@ -25,7 +25,7 @@
     <div class="form-outline mb-4">
         <input type="text" class="form-control w-50 m-auto" name="user_mobile">
     </div>
-    <input type="text" value="update" class="bg-info py-2 px-3 border-0" 
+    <input type="submit" value="update" class="bg-info py-2 px-3 border-0" 
     name="user_update">
     </form>
 </body>
