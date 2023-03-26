@@ -15,7 +15,7 @@
  $user_id=$row_fetch['user'];
     ?>
     <h3 class="text-success">all my orders</h3>
-    <table class ="table-secondary table-bordered mt-5">
+    <table class ="bg-info table-bordered mt-5">
         <thread class ="bg-info">
             <tr>
                 <th>S1 No</th>
@@ -38,6 +38,7 @@
                 $total_products=$row_orders['total_products'];
                 $invoice_number=$row_orders['invoice_number'];
                 $order_status=$row_orders['order_status'];
+                
                 $order_date=$row_orders['order_date'];
                 $number=1;
              echo "
