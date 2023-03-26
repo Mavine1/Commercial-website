@@ -18,7 +18,7 @@ if(isset($_GET['edit_account'])){
      $user_address=$_POST['user_address'];
      $user_mobile=$_POST['user_mobile'];
      $user_image=$_FILES['user_image']['name'];
-     $user_image=$_FILES['user_image']['tmp'];
+     $user_image=$_FILES['user_image']['tmp_name'];
      move_uploaded_file($user_image_tmp,"./user_image/$user_image");
 
      //update query
