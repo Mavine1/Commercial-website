@@ -161,7 +161,7 @@ cart();
       }
       if(isset($_GET['my_orders']))
       {
-        include('edit_orders.php');
+        include('user_orders.php');
       }
       ?>
     </div>
