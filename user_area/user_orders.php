@@ -31,7 +31,7 @@
             <?php
             $get_order_details="select * from user_orders where user_id=$user_id";
             $result_order=mysqli_query($con,$get_order_details);
-            while($row_orders=mysqli_fetch_assoc($result_orders)){
+            while($row_orders=mysqli_fetch_assoc($result_order)){
                 $order_id=$row_data['order_id'];
                 $amount_due=$row_data['amount_due'];
                 $amount_due=$row_data['amount_due'];
