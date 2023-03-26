@@ -8,7 +8,7 @@
 </head>
 <body>
     <h3 class="text-center taxt-success mb-4">Edit Account</h3>
-    <form action="" method="post" enctype="multipart/form-data">
+    <form action="" method="post" enctype="multipart/form-data" class="text-center">
     <div class="form-outline mb-4">
         <input type="text" class="form-control w-50 m-auto" name="user_username">
     </div>
@@ -24,7 +24,8 @@
     <div class="form-outline mb-4">
         <input type="text" class="form-control w-50 m-auto" name="user_mobile">
     </div>
-    <input type="text" value="update" class="bg-info py-2 px-3 border-o" name="user_mobile">
+    <input type="text" value="update" class="bg-info py-2 px-3 border-0" 
+    name="user_update">
     </form>
 </body>
 </html>
