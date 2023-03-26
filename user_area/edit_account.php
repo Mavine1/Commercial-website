@@ -11,6 +11,10 @@ if(isset($_GET['edit_account'])){
     $user_id=$row_fetch['user_address'];
     $user_id=$row_fetch['user_mobile'];
 
+    if(isset($_POST['user_update'])){
+        $update_id=$user_id;
+    }
+
 }
 ?>
 !DOCTYPE html>
