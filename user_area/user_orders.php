@@ -31,7 +31,8 @@
                 $order_id=$row_data['order_id'];
                 $amount_due=$row_data['amount_due'];
                 $amount_due=$row_data['amount_due'];
-                $order_id+$row_data[order_id];
+                $total_products=$row_data['total_products'];
+                $invoice_status=$row_data['order_status']
             }
         
             ?>
