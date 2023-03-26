@@ -8,7 +8,16 @@
 </head>
 <body>
     <h3 class="text-center taxt-success mb-4">Edit Account</h3>
-    <form action="" method="post" enctype="multipart/form-data>
+    <form action="" method="post" enctype="multipart/form-data">
+    <div class="form-outline mb-4">
+        <input type="text" class="form-control w-50 m-auto" name="user_username">
+    </div>
+    <div class="form-outline mb-4">
+        <input type="email" class="form-control w-50 m-auto" name="user_username">
+    </div>
+    <div class="form-outline mb-4">
+        <input type="text" class="form-control w-50 m-auto" name="user_username">
+    </div>
 
     </form>
 </body>
