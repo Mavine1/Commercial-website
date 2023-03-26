@@ -10,7 +10,15 @@
     <h3 class="text-success">all my orders</h3>
     <table class ="table table-bordered mt-5">
         <thread class ="bg-info">
-            
+            <tr>
+                <th>S1 No</th>
+                <th>Amount Due</th>
+                <th>Total products</th>
+                <th>Invoice number</th>
+                <th>Date</th>
+                <th>Complete/Incomplete</th>
+                <th>Status</th>
+            </tr>
         </thread>
     </table>
 </body>
