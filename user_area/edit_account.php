@@ -18,6 +18,8 @@ if(isset($_GET['edit_account'])){
      $user_address=$_POST['user_address'];
      $user_mobile=$_POST['user_mobile'];
      $user_image=$_FILES['user_image']['name'];
+     $user_image=$_FILES['user_image']['tmp'];
+     move_uploaded_file($user_image_tmp)
     }
 
 }
