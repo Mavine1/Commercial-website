@@ -44,10 +44,10 @@
              <tr>
              <td>$number</td>
              <td>$amount_due</td>
-             <td>3</td>
-             <td>34567</td>
-             <td>23445</td>
-             <td>completed</td>
+             <td>$total_products</td>
+             <td>$invoice_number</td>
+             <td>$order_date</td>
+             <td> $order_status</td>
              <td>confirm</td>
          </tr>
              ";
