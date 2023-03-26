@@ -31,12 +31,14 @@
             <?php
             $get_order_details="select * from user_orders where user_id=$user_id";
             $result_order=mysqli_query($con,$get_order_details);
-            while($row_orders=mysqli_fetch_assoc($result_order)){
+            while($row_orders=mysqli_fetch_array($result_order)){
                 $order_id=$row_data['order_id'];
                 $amount_due=$row_data['amount_due'];
                 $amount_due=$row_data['amount_due'];
                 $total_products=$row_data['total_products'];
-                $invoice_status=$row_data['order_status'];
+                $invoice_number=$row_data['invoice_number'];
+                $invoice_number=$row_data['invoice_number'];
+
             }
         
             ?>
