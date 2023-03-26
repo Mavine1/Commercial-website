@@ -25,7 +25,8 @@
         </thread>
         <tbody>
             <?php
-            $get_order_details="select "
+            $get_order_details="select * from user_orders where user_id=$user_id";
+            $result_order=mysqli_query($con,$get_order)
             ?>
         </tbody>
     </table>
