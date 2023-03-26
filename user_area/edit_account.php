@@ -28,7 +28,7 @@ if(isset($_GET['edit_account'])){
       $result_query_update=mysqli_query($con,$select_query);
       if($result_query_update){
        echo "<script>alert('data  updated successfully')</script>";
-       echo "<script>alert('data  updated successfully')</script>";
+       echo "<script>alert(window.open('logout.php')</script>";
     }
 
 
