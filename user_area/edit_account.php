@@ -23,7 +23,8 @@ if(isset($_GET['edit_account'])){
 
      //update query
      $update_data="update user_table set username='$username',user_email='$user_email',
-      user_image='$user_image', user_address='$user_address'"
+      user_image='$user_image', user_address='$user_address',user_mobile='$user_mobile'
+      where"
 
 
     }
