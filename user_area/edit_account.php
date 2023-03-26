@@ -19,11 +19,12 @@
         <input type="file" class="form-control w-50 m-auto" name="user_image">
     </div>
     <div class="form-outline mb-4">
-        <input type="text" class="form-control w-50 m-auto" name="user_username">
+        <input type="text" class="form-control w-50 m-auto" name="user_address">
     </div>
     <div class="form-outline mb-4">
-        <input type="text" class="form-control w-50 m-auto" name="user_username">
+        <input type="text" class="form-control w-50 m-auto" name="user_mobile">
     </div>
+    <input type="text" class="form-control w-50 m-auto" name="user_mobile">
     </form>
 </body>
 </html>
