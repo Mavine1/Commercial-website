@@ -1,6 +1,8 @@
 <?php
 if(isset($_GET['edit_account'])){
     $user_session_name=$_SESSION['username'];
+    $select_query="select * from user_table where username='
+
 }
 ?>
 !DOCTYPE html>
