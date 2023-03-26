@@ -31,6 +31,7 @@
             <?php
             $get_order_details="select * from user_orders where user_id=$user_id";
             $result_order=mysqli_query($con,$get_order_details);
+            $number=1;
             while($row_orders=mysqli_fetch_array($result_order)){
                 $order_id=$row_orders['order_id'];
                 $amount_due=$row_orders['amount_due'];
@@ -45,7 +46,7 @@
                     $order_status='complete';
                 }
                 $order_date=$row_orders['order_date'];
-                $number=1;
+               
              echo "
              <tr>
              <td>$number</td>
