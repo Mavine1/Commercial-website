@@ -159,7 +159,10 @@ cart();
       {
         include('edit_account.php');
       }
-
+      if(isset($_GET['my_orders']))
+      {
+        include('edit_orders.php');
+      }
       ?>
     </div>
 </div>
