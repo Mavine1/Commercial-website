@@ -8,8 +8,8 @@ if(isset($_GET['edit_account'])){
     $user_id=$row_fetch['user_id'];
     $username=$row_fetch['username'];
     $user=$row_fetch['user_email'];
-    $user_id=$row_fetch['user_id'];
-    $user_id=$row_fetch['user_id'];
+    $user_id=$row_fetch['user_address'];
+    $user_id=$row_fetch['user_mobile'];
 
 }
 ?>
@@ -39,7 +39,7 @@ if(isset($_GET['edit_account'])){
         <input type="text" class="form-control w-50 m-auto" value="<?php echo $user_address?>" name="user_address">
     </div>
     <div class="form-outline mb-4">
-        <input type="text" class="form-control w-50 m-auto" value="<?php echo $username ?>" name="user_mobile">
+        <input type="text" class="form-control w-50 m-auto" value="<?php echo $user_mobile ?>" name="user_mobile">
     </div>
     <input type="submit" value="update" class="bg-info py-2 px-3 border-0" 
     name="user_update">
