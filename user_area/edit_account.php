@@ -7,6 +7,6 @@
     <title>Edit account</title>
 </head>
 <body>
-    <h1>Edit </h1>
+    <h1>Edit account active </h1>
 </body>
 </html>
