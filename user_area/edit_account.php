@@ -4,7 +4,11 @@ if(isset($_GET['edit_account'])){
     $select_query="select * from user_table where username='$user_session_name'
     ";
     $result_query=mysqli_query($con,$select_query);
-    $row
+    $row_fetch=mysqli_fetch_assoc($result_query);
+    $user_id=$row_fetch['user_id'];
+    $user_id=$row_fetch['user_id'];
+    $user_id=$row_fetch['user_id'];
+    
 
 }
 ?>
