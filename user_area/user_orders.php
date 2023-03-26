@@ -15,7 +15,7 @@
  $user_id=$row_fetch['user'];
     ?>
     <h3 class="text-success">all my orders</h3>
-    <table class ="table table-bordered mt-5">
+    <table class ="table-secondary table-bordered mt-5">
         <thread class ="bg-info">
             <tr>
                 <th>S1 No</th>
@@ -50,21 +50,12 @@
              <td> $order_status</td>
              <td><a href= 'confirm_payment.php' 
              class='text-light'>confirm</td>
-         </tr>
-             ";
+         </tr>";
              $number++;
             }
         
             ?>
-            <tr>
-                <td>1</td>
-                <td>100</td>
-                <td>3</td>
-                <td>34567</td>
-                <td>23445</td>
-                <td></td>
-                <td></td>
-            </tr>
+        
         </tbody>
     </table>
 </body>
