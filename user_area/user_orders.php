@@ -9,10 +9,10 @@
 <body>
     <?php
  $username=$_SESSION['username'];
- $get_users="select * from user_table where username='$username'";
+ $get_user="select * from user_table where username='$username'";
  $result=mysqli_query($con,$get_user);
  $row_fetch=mysqli_fetch_assoc($result);
- $user_id=$row_fetch['user']
+ $user_id=$row_fetch['user'];
     ?>
     <h3 class="text-success">all my orders</h3>
     <table class ="table table-bordered mt-5">
