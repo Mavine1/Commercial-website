@@ -31,6 +31,11 @@ session_start();
     /*height:100%;*/
     object-fit: contain;
 }
+.edit_img{
+  width:100px;
+  height:100px;
+  obje
+}
 </style>
     </head>
 <body>
