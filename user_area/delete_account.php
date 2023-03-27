@@ -15,7 +15,7 @@
         </div>
         <div class="form-outline mb-4">
             <input type="submit" class="form-control w-50 m-auto" name="don't_delete"
-            value="Don't  >
+            value="Don't Delete Account" >
         </div>
     </form>
     
