@@ -10,3 +10,6 @@
             value="Don't Delete Account" >
         </div>
     </form>
+<?php
+$username_session=$_SESSION['']
+?>
