@@ -8,7 +8,9 @@ if(isset($_GET['order_id'])){
     //echo $order_id;
     $select_data="select * from user_order where order_id=$order_id";
     $result=mysqli_query($con,$select_data);
-    $row_fetch=mysqli_fetch_assoc($result)
+    $row_fetch=mysqli_fetch_assoc($result);
+    $invoice_number=$row_fetch['invoice_number'];
+    $amount_due=$row_fetch['amount_due'];
 }
 ?>
 <!DOCTYPE html>
