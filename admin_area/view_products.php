@@ -31,7 +31,7 @@
     <td>0</td>
     <td>true</td>
     <td><a href="" class="text-light"><i class="fa-solid fa-pen-to-square"></i></a></td>
-    <td><td><a href="" class="text-light"><i class="fa-solid fa-pen-to-square"></i></a></td></td>
+    <td><a href="" class="text-light"><i class="fa-solid fa-trash"></i></a></td>
 </tr>
     </tbody>
    </table>
