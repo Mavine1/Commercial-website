@@ -7,8 +7,8 @@
     <title>view products</title>
 </head>
 <body>
-   <h3 class="test-center text-success">All products</h3>
-   <table class="table table-bordered-mt-5">
+   <h3 class="text-center text-success">All products</h3>
+   <table class="table table-bordered mt-5">
     <thead class="bg-info">
         <tr>
             <th>product ID</th>
@@ -22,6 +22,11 @@
         </tr>
 
     </thead>
+    <tbody class="bg-secondary text-light">
+<tr>
+    td
+</tr>
+    </tbody>
    </table>
 </body>
 </html>
