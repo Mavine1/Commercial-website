@@ -55,6 +55,8 @@
              <td>$invoice_number</td>
              <td>$order_date</td>
              <td> $order_status</td>
+             ?>
+             <
              <td><a href= 'confirm.php?order_id=$order_id' 
              class='text-light'>confirm</td>
          </tr>";
