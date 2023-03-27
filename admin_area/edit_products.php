@@ -27,7 +27,8 @@ if(isset($_GET['edit_products'])){
     </div>
     <div class="form-outline w-50 m-auto mb-4">
         <label for="product_description" class="form-label">product Description</label>
-        <input type="text" id="product_description" name="product_description" class="form-control"
+        <input type="text" id="product_description" value=<?php  echo $product_description?> 
+        name="product_description" class="form-control"
         required="required">
     </div>
     <div class="form-outline w-50 m-auto mb-4">
