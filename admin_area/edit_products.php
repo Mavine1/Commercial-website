@@ -8,12 +8,12 @@
     </div>
     <div class="form-outline w-50 m-auto mb-4">
         <label for="product_description" class="form-label">product Description</label>
-        <input type="text" id="product_title" name="product_title" class="form-control"
+        <input type="text" id="product_description" name="product_description" class="form-control"
         required="required">
     </div>
     <div class="form-outline w-50 m-auto mb-4">
         <label for="product_keyword" class="form-label">product keyword</label>
-        <input type="text" id="product_title" name="product_title" class="form-control"
+        <input type="text" id="product_keyword" name="product_keyword" class="form-control"
         required="required">
     </div>
 </form>
