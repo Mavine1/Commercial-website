@@ -34,8 +34,10 @@ if(isset($_GET['order_id'])){
         </div>
         <div class="form-outline my-4 text-center w-50 m-auto">
             <label for="" class="text_light" >Amount</label>
-            <input type="text" class="form-control w-50 m-auto>
-        <div class="form_outline my-4 text-center w-50 m-auto">
+            <input type="text" class="form-control w-50 m-auto" name="amount"
+            value="<?php echo $amount_due?>">
+        </div>
+            <div class="form_outline my-4 text-center w-50 m-auto">
             <select name="payment_mode" class="form-select w-50 m-auto">
                 <option >select payment mode</option>
                 <option >Paypal</option>
