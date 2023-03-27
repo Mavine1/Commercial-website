@@ -54,9 +54,10 @@
              <td>$total_products</td>
              <td>$invoice_number</td>
              <td>$order_date</td>
-             <td> $order_status</td>
+             <td> $order_status</td>";
              ?>
-             <
+             <?php
+             if($order_status)
              <td><a href= 'confirm.php?order_id=$order_id' 
              class='text-light'>confirm</td>
          </tr>";
