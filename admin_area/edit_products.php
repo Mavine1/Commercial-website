@@ -17,6 +17,7 @@
         required="required">
     </div>
     <div class="form-outline w-50 m-auto mb-4">
+    <label for="product_category" class="form-label">product categories</label>
         <select name="product_category" class="form-select">
             <option value=""></option>
             <option value=""></option>
