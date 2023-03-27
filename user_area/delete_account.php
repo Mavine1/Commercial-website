@@ -17,7 +17,7 @@ if(isset($_POST['delete'])){
     $result=mysqli_query($con,$delete_query);
     if($result){
         session_destroy();
-        echo ""
+        echo "<script>alert('Account Deleted successfully')</script>";
 
     }
 }
