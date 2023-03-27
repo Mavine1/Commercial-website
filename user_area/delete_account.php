@@ -14,7 +14,8 @@
             value="delete Account">
         </div>
         <div class="form-outline mb-4">
-            <input type="submit" class="">
+            <input type="submit" class="form-control w-50 m-auto" name="don't_delete"
+            value="Don't  >
         </div>
     </form>
     
