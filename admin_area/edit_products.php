@@ -1,7 +1,8 @@
 <?php
 if(isset($_GET['edit_products'])){
     $edit_id=$_GET['edit_products'];
-    $get_date="select * from pr"
+    $get_date="select * from products where product_id=$edit_id";
+    $result=mysqli_query($con,get_data);
 }
 ?>
 <div class="container nt-5">
