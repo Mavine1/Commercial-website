@@ -37,9 +37,9 @@
             echo "<tr class='text-center'>
             <td>$number</td>
             <td>$product_title</td>
-            <td>img</td>
-            <td>444</td>
+            <td>img src='./product_images/$product_image'</td>
             <td>0</td>
+            <td></td>
             <td>true</td>
             <td><a href='' class='text-light'><i class='fa-solid fa-pen-to-square'></i></a></td>
             <td><a href='' class='text-light'><i class='fa-solid fa-trash'></i></a></td>
