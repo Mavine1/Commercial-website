@@ -43,7 +43,8 @@
             <td><?php
             $get_count="select * from orders_pending where product_id=$product_id";
             $result_count=mysqli_query($con,$get_products);
-            $row_count=msqli_num_rows($result_count);
+            $rows_count=mysqli_num_rows($result_count);
+            echo 
 
             ?></td>
             <td><?php $status;?></td>
