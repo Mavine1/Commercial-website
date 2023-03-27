@@ -7,6 +7,7 @@
     <title>view products</title>
 </head>
 <body>
-   <h1>view products</h1> 
+   <h3 class="test-center text-success">All products</h3>
+   <table
 </body>
 </html>
