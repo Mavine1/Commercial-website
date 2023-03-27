@@ -40,8 +40,8 @@
             <td><?php echo $product_title;?></td>
             <td><img src='./product_images/<?php echo  $product_image;?>'class='product_img'/></td>
             <td><?php echo $product_price;?></td>
-            <td></td>
-            <td>$status</td>
+            <td>0</td>
+            <td><?php $status;?></td>
             <td><a href='' class='text-light'><i class='fa-solid fa-pen-to-square'></i></a></td>
             <td><a href='' class='text-light'><i class='fa-solid fa-trash'></i></a></td>
         </tr>
