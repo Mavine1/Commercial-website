@@ -5,13 +5,15 @@ if(isset($_GET['edit_products'])){
     $result=mysqli_query($con,$get_data);
     $roes=mysqli_fetch_assoc($result);
     $product_title=$row['product_title'];
+    echo $product_title;
     $product_description=$row['product_description'];
     $product_keyword=$row['product_keyword'];
     $category_id=$row['category_id'];
     $brand_id=$row['brand_id'];
     $product_image1=$row['product_image1'];
-    $product_title=$row['product_title'];
-    $product_title=$row['product_title'];
+    $product_image2=$row['product_image2'];
+    $product_image3=$row['product_image3'];
+    $product_price=$row['product_price'];
 }
 ?>
 <div class="container nt-5">
