@@ -32,19 +32,19 @@
             $product_image=$row['product_image'];
             $product_price=$row['product_price'];
             $status=$row['status'];
-            echo "";
+            echo "<tr>
+            <td>1</td>
+            <td>mango</td>
+            <td>Image</td>
+            <td>444</td>
+            <td>0</td>
+            <td>true</td>
+            <td><a href='' class='text-light'><i class='fa-solid fa-pen-to-square'></i></a></td>
+            <td><a href='' class='text-light'><i class='fa-solid fa-trash'></i></a></td>
+        </tr>";
         }
         ?>
-<tr>
-    <td>1</td>
-    <td>mango</td>
-    <td>Image</td>
-    <td>444</td>
-    <td>0</td>
-    <td>true</td>
-    <td><a href="" class="text-light"><i class="fa-solid fa-pen-to-square"></i></a></td>
-    <td><a href="" class="text-light"><i class="fa-solid fa-trash"></i></a></td>
-</tr>
+
     </tbody>
    </table>
 </body>
