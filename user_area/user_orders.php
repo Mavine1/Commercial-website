@@ -57,9 +57,13 @@
              <td> $order_status</td>";
              ?>
              <?php
-             if($order_status)
-             <td><a href= 'confirm.php?order_id=$order_id' 
+             if($order_status=='complete'){
+                echo "<td>paid</td>";
+             }else{
+                echo "<td><a href= 'confirm.php?order_id=$order_id' 
              class='text-light'>confirm</td>
+             }
+             
          </tr>";
              $number++;
             }
