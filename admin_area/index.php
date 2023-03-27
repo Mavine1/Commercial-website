@@ -79,11 +79,9 @@ session_start();
         ?>
         </div>
         <!---last child--->
-        <div class="bg-info p-0 text-center">
-  <p>All rights reserved 2023 Designed by Mavine</p>
-</div>
+       
     </div>
-
+<?php include("../include/footer.php")
 
     <!--bootstrap js link-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" 
