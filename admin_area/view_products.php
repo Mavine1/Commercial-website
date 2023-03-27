@@ -28,9 +28,9 @@
     <td>mango</td>
     <td>Image</td>
     <td>444</td>
-    <td>1</td>
+    <td>0</td>
     <td>true</td>
-    <td>edit</td>
+    <td><a href="" class="text-light"></a></td>
     <td>delete</td>
 </tr>
     </tbody>
