@@ -7,6 +7,6 @@
     <title>Editing products</title>
 </head>
 <body>
-    
+   editing 
 </body>
 </html>
