@@ -42,7 +42,9 @@
             <td><?php echo $product_price;?></td>
             <td><?php
             $get_count="select * from orders_pending where product_id=$product_id";
-            $result=mysqli_query($con,$get_products);
+            $result_count=mysqli_query($con,$get_products);
+            $row_count=msqli_num_rows($result_count);
+
             ?></td>
             <td><?php $status;?></td>
             <td><a href='' class='text-light'><i class='fa-solid fa-pen-to-square'></i></a></td>
