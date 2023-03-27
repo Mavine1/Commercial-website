@@ -33,7 +33,8 @@ if(isset($_GET['order_id'])){
             value="<?php echo $invoice_number ?>">
         </div>
         <div class="form-outline my-4 text-center w-50 m-auto">
-            <label for="" class="form_control w-50 m-auto" name= "invoice_number">
+            <label for="" class="text_light" >Amount</label>
+            <input type="text" class="form-control w-50 m-auto>
         <div class="form_outline my-4 text-center w-50 m-auto">
             <select name="payment_mode" class="form-select w-50 m-auto">
                 <option >select payment mode</option>
