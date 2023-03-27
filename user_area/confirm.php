@@ -12,7 +12,10 @@ if(isset($_GET['order_id'])){
     $invoice_number=$row_fetch['invoice_number'];
     $amount_due=$row_fetch['amount_due'];
 }
-if(isset($_POST['confirm_payment']))
+if(isset($_POST['confirm_payment'])){
+    $invoice_number=$_POST['invoice_number'];
+    $amount=$
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
