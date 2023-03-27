@@ -16,7 +16,9 @@ if(isset($_POST['delete'])){
     $delete_query="Delete from user_table where username='$username_session'";
     $result=mysqli_query($con,$delete_query);
     if($result){
-        
+        session_destroy();
+        echo ""
+
     }
 }
 ?>
