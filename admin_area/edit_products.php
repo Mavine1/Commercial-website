@@ -21,7 +21,8 @@ if(isset($_GET['edit_products'])){
 <form action="" method="post" enctype ="multipart/form-data">
     <div class="form-outline w-50 m-auto">
         <label for="product_title" class="form-label">product Title</label>
-        <input type="text" id="product_title" name="product_title" class="form-control"
+        <input type="text" id="product_title" value=<?php  echo $name="product_title"
+        name="product_title" class="form-control"
         required="required">
     </div>
     <div class="form-outline w-50 m-auto mb-4">
