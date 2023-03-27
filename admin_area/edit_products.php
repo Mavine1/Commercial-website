@@ -65,5 +65,9 @@
         <input type="text" id="product_price" name="product_price" class="form-control"
         required="required">
     </div>
+    <div class="text-center">
+        <input type="">
+
+    </div>
 </form>
 </div>
