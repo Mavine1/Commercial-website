@@ -37,7 +37,7 @@
             ?>
             <tr class='text-center'>
             <td><?php echo $number;?></td>
-            <td>$product_title</td>
+            <td><$product_title</td>
             <td><img src='./product_images/$product_image'class='product_img'/></td>
             <td>$product_price</td>
             <td></td>
