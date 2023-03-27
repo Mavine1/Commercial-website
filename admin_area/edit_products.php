@@ -41,7 +41,7 @@
         <div class="d-flex">
         <input type="file" id="product_image1" name="product_image1" class="form-control w-90 n-auto"
         required="required">
-        <img src="./product_images/dairy.png" alt="" class="edit_image">
+        <img src="./product_images/dairy.png" alt="" class="product_img">
 </div>
     </div>
 </form>
