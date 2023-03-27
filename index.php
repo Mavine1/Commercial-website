@@ -46,9 +46,11 @@ session_start();
         <?php
         if(!isset($_SESSION['username'])){
           echo " </li>
-          <li class'nav-item">
-            <a class'nav-link" href'./user_area/user_registration.php">Register</a>
+          <li class'nav-item'>
+            <a class'nav-link' href'./user_area/user_registration.php'>My Account</a>
           </li>";
+        }else{
+          
         }
         ?>
        
