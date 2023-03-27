@@ -37,7 +37,7 @@
         </select>
     </div>
     <div class="form-outline w-50 m-auto mb-4">
-        <label for="product_keyword" class="form-label">product keyword</label>
+        <label for="product_image1" class="form-label">product image1</label>
         <input type="text" id="product_keyword" name="product_keyword" class="form-control"
         required="required">
     </div>

@@ -30,7 +30,7 @@
         while($row=mysqli_fetch_assoc($result)){
             $product_id=$row['product_id'];
             $product_title=$row['product_title'];
-            $product_image=$row['product_image'];
+            $product_image1=$row['product_image1'];
             $product_price=$row['product_price'];
             $status=$row['status'];
             $number++;
@@ -38,7 +38,7 @@
             <tr class='text-center'>
             <td><?php echo $number;?></td>
             <td><?php echo $product_title;?></td>
-            <td><img src='product_images.php?php echo  $product_image;?>'class='product_img'/></td>
+            <td><img src='product_images.php<?php echo  $product_image1;?>'class='product_img'/></td>
             <td><?php echo $product_price;?></td>
             <td><?php
             $get_count="select * from orders_pending where product_id=$product_id";
