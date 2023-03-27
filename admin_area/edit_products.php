@@ -7,7 +7,9 @@ if(isset($_GET['edit_products'])){
     $product_title=$row['product_title'];
     $product_description=$row['product_description'];
     $product_keyword=$row['product_keyword'];
-    $product_id=$row['category_id'];
+    $category_id=$row['category_id'];
+    $brand_id=$row['brand_id'];
+    $product_image1=$row['product_image1'];
     $product_title=$row['product_title'];
     $product_title=$row['product_title'];
 }
