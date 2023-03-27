@@ -30,8 +30,8 @@
     <td>444</td>
     <td>0</td>
     <td>true</td>
-    <td><a href="" class="text-light"><i class="fa-solid fa-pen-to-square"</a></td>
-    <td>delete</td>
+    <td><a href="" class="text-light"><i class="fa-solid fa-pen-to-square"></i></a></td>
+    <td><td><a href="" class="text-light"><i class="fa-solid fa-pen-to-square"></i></a></td></td>
 </tr>
     </tbody>
    </table>
