@@ -24,7 +24,14 @@
     </thead>
     <tbody class="bg-secondary text-light">
 <tr>
-    td
+    <td>1</td>
+    <td>mango</td>
+    <td>Image</td>
+    <td>444</td>
+    <td>1</td>
+    <td>true</td>
+    <td>edit</td>
+    <td>delete</td>
 </tr>
     </tbody>
    </table>
