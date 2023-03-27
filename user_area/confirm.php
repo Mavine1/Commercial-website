@@ -23,9 +23,10 @@ if(isset($_GET['order_id'])){
 <div class="container my-5">
  <h1 class= "text_center text-light">Confirm payment</h1>
     <form action="" method="post">
-        <div class="form-outline my-4 text-center">
-            <input type="text" class="form_control">
+        <div class="form-outline my-4 text-center w-50 m-auto">
+            <input type="text" class="form_control w-50 m-auto" name= "invoice_number">
         </div>
+        <div class="form_outline my-4 text-center w-50
     </form>
  </div>  
 </body>
