@@ -79,6 +79,9 @@ body{
         if(isset($_GET['insert_brands'])){
             include('insert_brands.php');
         }
+        if(isset($_GET['view_products'])){
+            include('insert_brands.php');
+        }
         ?>
         </div>
         <!---last child--->
