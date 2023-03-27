@@ -41,7 +41,8 @@
             <td><img src='./product_images/<?php echo  $product_image;?>'class='product_img'/></td>
             <td><?php echo $product_price;?></td>
             <td><?php
-            $get_count="select * from orders_pending where"
+            $get_count="select * from orders_pending where product_id=$product_id";
+            $result=mysqli_query($con,$get_products);
             ?></td>
             <td><?php $status;?></td>
             <td><a href='' class='text-light'><i class='fa-solid fa-pen-to-square'></i></a></td>
