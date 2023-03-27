@@ -26,7 +26,9 @@ if(isset($_GET['order_id'])){
         <div class="form-outline my-4 text-center w-50 m-auto">
             <input type="text" class="form_control w-50 m-auto" name= "invoice_number">
         </div>
-        <div class="form_outline my-4 text-center w-50
+        <div class="form_outline my-4 text-center w-50 m-auto">
+            <select name="payment_mode" class=""></select>
+        </div>
     </form>
  </div>  
 </body>
