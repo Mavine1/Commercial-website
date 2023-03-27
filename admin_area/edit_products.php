@@ -39,9 +39,9 @@
     <div class="form-outline w-50 m-auto mb-4">
         <label for="product_image1" class="form-label">product image1</label>
         <div class="d-flex">
-        <input type="file" id="product_image1" name="product_image1" class="form-control"
+        <input type="file" id="product_image1" name="product_image1" class="form-control w-90 n-auto"
         required="required">
-        <img src="./product_images/dairy.png" alt="">
+        <img src="./product_images/dairy.png" alt="" class="edit_image">
 </div>
     </div>
 </form>
