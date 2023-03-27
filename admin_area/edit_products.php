@@ -60,5 +60,10 @@
         <img src="./product_images/dairy.png" alt="" class="product_img">
 </div>
     </div>
+    <div class="form-outline w-50 m-auto mb-4">
+        <label for="product_price" class="form-label">product price</label>
+        <input type="text" id="product_price" name="product_price" class="form-control"
+        required="required">
+    </div>
 </form>
 </div>
