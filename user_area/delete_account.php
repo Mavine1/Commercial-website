@@ -11,5 +11,8 @@
         </div>
     </form>
 <?php
-$username_session=$_SESSION['']
+$username_session=$_SESSION['username'];
+if(isset($_POST['delete'])){
+    $delete_query="Delte"
+}
 ?>
