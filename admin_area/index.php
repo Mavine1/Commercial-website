@@ -28,7 +28,10 @@ session_start();
 body{
    overflow-x: hidden; 
 }
-
+.product_img{
+    width: 10%;
+    object-fit: contain;
+}
     </style>
 </head>
 <body>
