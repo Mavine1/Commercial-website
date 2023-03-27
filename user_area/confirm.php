@@ -35,7 +35,10 @@ if(isset($_GET['order_id'])){
                 <option >Pay on delivery</option>
             </select>
         </div>
-        <div class="form_outline my-4 text-center w-50 m-auto"
+        <div class="form_outline my-4 text-center w-50 m-auto">
+            <input type="submit" class="bg-info py-2 px-3 border-0" value="confirm"
+            name="confirm_payment">
+        </div>
     </form>
  </div>  
 </body>
