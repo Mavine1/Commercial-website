@@ -14,7 +14,9 @@ if(isset($_GET['order_id'])){
 }
 if(isset($_POST['confirm_payment'])){
     $invoice_number=$_POST['invoice_number'];
-    $amount=$
+    $amount=$_post['Invoice_number'];
+    $payment_mode=$_POST['payment_mode'];
+    $insert_query=""
 }
 ?>
 <!DOCTYPE html>
