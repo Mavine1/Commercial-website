@@ -16,7 +16,8 @@ if(isset($_POST['confirm_payment'])){
     $invoice_number=$_POST['invoice_number'];
     $amount=$_post['Invoice_number'];
     $payment_mode=$_POST['payment_mode'];
-    $insert_query=""
+    $insert_query="insert into user_payments (order_id,invoice_number,amount,payment_mode)
+    values ($order_id,$invoice_number,$$amount,$payment"
 }
 ?>
 <!DOCTYPE html>
