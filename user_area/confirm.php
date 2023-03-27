@@ -5,7 +5,8 @@ include('../admin_area/functions/common_function.php');
 session_start();
 if(isset($_GET['order_id'])){
     $order_id=$_GET['order_id'];
-    echo $order_id;
+    //echo $order_id;
+    $select_data="select * from user_order where order_id=$order"
 }
 ?>
 <!DOCTYPE html>
