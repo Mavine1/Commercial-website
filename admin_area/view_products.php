@@ -7,6 +7,6 @@
     <title>view products</title>
 </head>
 <body>
-    
+   <h1>view products</h1> 
 </body>
 </html>
