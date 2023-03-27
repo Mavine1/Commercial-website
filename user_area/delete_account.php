@@ -6,7 +6,7 @@
             value="delete Account">
         </div>
         <div class="form-outline mb-4">
-            <input type="submit" class="form-control w-50 m-auto" name="don't_delete"
+            <input type="submit" class="form-control w-50 m-auto" name="dont_delete"
             value="Don't Delete Account" >
         </div>
     </form>
@@ -23,6 +23,7 @@ if(isset($_POST['delete'])){
     }
 }
 if(isset($_POST['dont_delete'])){
+    echo "<script>window.open('profile.php','_self')</script>";
 
 }
 ?>
