@@ -65,19 +65,19 @@ if(isset($_GET['edit_products'])){
 </div>
     </div>
     <div class="form-outline w-50 m-auto mb-4">
-        <label for="product_image2" class="form-label">product image1</label>
+        <label for="product_image2" class="form-label">product image2</label>
         <div class="d-flex">
         <input type="file" id="product_image2" name="product_image2" class="form-control w-90 n-auto"
         required="required">
-        <img src="./product_images/<?php  echo $product_image1 ?>" alt="" class="product_img">
+        <img src="./product_images/<?php  echo $product_image2 ?>" alt="" class="product_img">
 </div>
     </div>
     <div class="form-outline w-50 m-auto mb-4">
-        <label for="product_image3" class="form-label">product image1</label>
+        <label for="product_image3" class="form-label">product image3</label>
         <div class="d-flex">
         <input type="file" id="product_image3" name="product_image3" class="form-control w-90 n-auto"
         required="required">
-        <img src="./product_images/dairy.png" alt="" class="product_img">
+        <img src="./product_images/<?php  echo $product_image3 ?>" alt="" class="product_img">
 </div>
     </div>
     <div class="form-outline w-50 m-auto mb-4">
