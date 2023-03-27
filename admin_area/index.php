@@ -86,6 +86,9 @@ body{
         if(isset($_GET['view_products'])){
             include('view_products.php');
         }
+        if(isset($_GET['edit_products'])){
+            include('edit_products.php');
+        }
         ?>
         </div>
         <!---last child--->
