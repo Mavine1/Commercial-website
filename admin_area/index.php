@@ -29,7 +29,7 @@ body{
    overflow-x: hidden; 
 }
 .product_img{
-    width: 10%;
+    width: 100px;
     object-fit: contain;
 }
     </style>
