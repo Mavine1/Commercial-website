@@ -43,7 +43,11 @@ session_start();
         </li>
         <li class="nav-item">
           <a class="nav-link" href="display_all.php">Products</a>
-        <?
+        <?php
+        if(!isset($_SESSION['username'])){
+          
+        }
+        ?>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="./user_area/user_registration.php">Register</a>
