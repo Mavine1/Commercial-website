@@ -11,7 +11,14 @@
    <table class="table table-bordered-mt-5">
     <thead class="bg-info">
         <tr>
-            th*
+            <th>product ID</th>
+            <th>product Title</th>
+            <th>product Image</th>
+            <th>product Price</th>
+            <th>Total sold</th>
+            <th>status</th>
+            <th>Edit</th>
+            <th>Delete</th>
         </tr>
 
     </thead>
