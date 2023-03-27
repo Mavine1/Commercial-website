@@ -8,6 +8,13 @@
 </head>
 <body>
    <h3 class="test-center text-success">All products</h3>
-   <table
+   <table class="table table-bordered-mt-5">
+    <thead class="bg-info">
+        <tr>
+            th*
+        </tr>
+
+    </thead>
+   </table>
 </body>
 </html>
