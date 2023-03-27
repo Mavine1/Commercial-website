@@ -25,6 +25,9 @@ session_start();
     width:100px;
     object-fit: contain;
 }
+body{
+   overflow-x: hidden; 
+}
     </style>
 </head>
 <body>
