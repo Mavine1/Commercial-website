@@ -7,6 +7,8 @@
     <title>Delete Account</title>
 </head>
 <body>
+    <h3 class="text-danger mb-4">Delete Account</h3>
+    <form action="" method="post" class="mt-5"></form>
     
 </body>
 </html>
