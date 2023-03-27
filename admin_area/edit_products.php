@@ -17,7 +17,22 @@
         required="required">
     </div>
     <div class="form-outline w-50 m-auto mb-4">
-        <select name="product_brands" id=""></select>
+        <select name="product_category" class="form-select">
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+        </select>
+    </div>
+    <div class="form-outline w-50 m-auto mb-4">
+        <select name="product_brands" class="form-select">
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+        </select>
     </div>
 </form>
 </div>
