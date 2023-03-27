@@ -5,7 +5,7 @@ if(isset($_GET['edit_products'])){
     $result=mysqli_query($con,$get_data);
     $roes=mysqli_fetch_assoc($result);
     $product_title=$row['product_title'];
-    echo $product_title;
+    //echo $product_title;
     $product_description=$row['product_description'];
     $product_keyword=$row['product_keyword'];
     $category_id=$row['category_id'];
