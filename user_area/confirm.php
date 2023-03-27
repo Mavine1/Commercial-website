@@ -27,8 +27,15 @@ if(isset($_GET['order_id'])){
             <input type="text" class="form_control w-50 m-auto" name= "invoice_number">
         </div>
         <div class="form_outline my-4 text-center w-50 m-auto">
-            <select name="payment_mode" class=""></select>
+            <select name="payment_mode" class="form-select w-50 m-auto">
+                <option >select payment mode</option>
+                <option >Paypal</option>
+                <option >Mastercard</option>
+                <option >M-pesa</option>
+                <option >Pay on delivery</option>
+            </select>
         </div>
+        <div class="form_outline my-4 text-center w-50 m-auto"
     </form>
  </div>  
 </body>
