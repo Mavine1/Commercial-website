@@ -65,8 +65,8 @@
         <input type="text" id="product_price" name="product_price" class="form-control"
         required="required">
     </div>
-    <div class="text-center">
-        <input type="submit" name="edit_product" name="edit+product">
+    <div class="w-50 m-auto">
+        <input type="submit" name="edit_product" name="edit+product"
      class ="btn btn-info px-3 mb-3">
     </div>
 </form>
