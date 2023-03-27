@@ -80,7 +80,7 @@ body{
             include('insert_brands.php');
         }
         if(isset($_GET['view_products'])){
-            include('insert_brands.php');
+            include('view_products.php');
         }
         ?>
         </div>
