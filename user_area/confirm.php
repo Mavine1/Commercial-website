@@ -6,7 +6,9 @@ session_start();
 if(isset($_GET['order_id'])){
     $order_id=$_GET['order_id'];
     //echo $order_id;
-    $select_data="select * from user_order where order_id=$order"
+    $select_data="select * from user_order where order_id=$order_id";
+    $result=mysqli_query($con,$select_data);
+    $row_fetch=mysqli_fetch_assoc($result)
 }
 ?>
 <!DOCTYPE html>
