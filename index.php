@@ -47,11 +47,11 @@ session_start();
         if(!isset($_SESSION['username'])){
           echo " </li>
           <li class'nav-item'>
-            <a class'nav-link' href'./user_area/profile.php'>My Account</a>
+            <a class='nav-link' href'./user_area/profile.php'>My Account</a>
           </li>";
         }else{
            echo "<li class'nav-item'>
-            <a class'nav-link' href'./user_area/user_registration.php'>Register</a>
+            <a class='nav-link' href'./user_area/user_registration.php'>Register</a>
           </li>";
 
         }
