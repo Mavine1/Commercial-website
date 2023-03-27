@@ -1,6 +1,7 @@
 <?php
 if(isset($_GET['edit_products'])){
-    $edit_id=$_
+    $edit_id=$_GET['edit_products'];
+    $get_date="select * from pr"
 }
 ?>
 <div class="container nt-5">
