@@ -21,6 +21,10 @@ if(isset($_GET['order_id'])){
 </head>
 <body>
  <h1 class= "text_center">Confirm payment</h1>
- div.container   
+ <div class="container my-5">
+    <form action="" method="post">
+        <div
+    </form>
+ </div>  
 </body>
 </html>
