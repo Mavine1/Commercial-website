@@ -4,7 +4,12 @@ if(isset($_GET['edit_products'])){
     $get_date="select * from products where product_id=$edit_id";
     $result=mysqli_query($con,$get_data);
     $roes=mysqli_fetch_assoc($result);
-    $product_titl$row
+    $product_title=$row['product_title'];
+    $product_description=$row['product_title'];
+    $product_title=$row['product_title'];
+    $product_title=$row['product_title'];
+    $product_title=$row['product_title'];
+    $product_title=$row['product_title'];
 }
 ?>
 <div class="container nt-5">
