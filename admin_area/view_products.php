@@ -26,7 +26,12 @@
         <?php
         $get_products="select * from products";
         $result=mysqli_query($con,$get_products);
-        
+        while($row=mysqli_fetch_assoc($result)){
+            $product_id=$row['product_id'];
+            $product_id=$row['product_id'];
+            $product_id=$row['product_id'];
+            $product_id=$row['product_id'];
+        }
         ?>
 <tr>
     <td>1</td>
