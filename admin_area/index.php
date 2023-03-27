@@ -49,7 +49,7 @@
                 </div>
                 <div class="button text-center">
                     <button class="my-3"><a href="insert_product.php" class="nav-link text-light bg-info my-1">Insert products</a></button>
-                    <button><a href="" class="nav-link text-light bg-info my-1">View products</a></button>
+                    <button><a href="index.php?view_products" class="nav-link text-light bg-info my-1">View products</a></button>
                     <button><a href="index.php?insert_category" class="nav-link text-light bg-info my-1">Insert categories</a></button>
                     <button><a href="" class="nav-link text-light bg-info my-1">View Categories</a></button>
                     <button><a href="index.php?insert_brands" class="nav-link text-light bg-info my-1">Insert Brands</a></button>
