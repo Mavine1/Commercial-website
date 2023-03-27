@@ -20,10 +20,12 @@ if(isset($_GET['order_id'])){
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 </head>
 <body>
- <h1 class= "text_center">Confirm payment</h1>
+ <h1 class= "text_center text-">Confirm payment</h1>
  <div class="container my-5">
     <form action="" method="post">
-        <div
+        <div class="form-outline my-4 text-cennter">
+            <input type="text" class="form_control">
+        </div>
     </form>
  </div>  
 </body>
