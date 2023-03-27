@@ -20,9 +20,9 @@ if(isset($_POST['confirm_payment'])){
     values ('$order_id','$invoice_number','$amount','$payment_mode')";
     if($result){
         echo "<h3 class ='text-center text-light'> successfully completed the payment</h3>";
-        echo "<script>window.open('profile.php?my_orders','_self')</script>";
-        
+        echo "<script>window.open('profile.php?my_orders','_self')</script>";  
     }
+    update_orders="update user_orders"
 }
 ?>
 <!DOCTYPE html>
