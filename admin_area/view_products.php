@@ -37,8 +37,8 @@
             ?>
             <tr class='text-center'>
             <td><?php echo $number;?></td>
-            <td><$product_title</td>
-            <td><img src='./product_images/$product_image'class='product_img'/></td>
+            <td><?php echo $product_title;?></td>
+            <td><img src='./product_images/<?php echo  $product_image;?>'class='product_img'/></td>
             <td>$product_price</td>
             <td></td>
             <td>$status</td>
