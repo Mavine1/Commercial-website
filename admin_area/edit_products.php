@@ -16,5 +16,8 @@
         <input type="text" id="product_keyword" name="product_keyword" class="form-control"
         required="required">
     </div>
+    <div class="form-outline w-50 m-auto mb-4">
+        <select name="product_brands" id=""></select>
+    </div>
 </form>
 </div>
