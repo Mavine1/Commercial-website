@@ -30,14 +30,14 @@
         while($row=mysqli_fetch_assoc($result)){
             $product_id=$row['product_id'];
             $product_title=$row['product_title'];
-            $products_image=$row['product_image'];
+            $product_image=$row['product_image'];
             $product_price=$row['product_price'];
             $status=$row['status'];
             $number++;
             echo "<tr class='text-center'>
             <td>$number</td>
-            <td>mango</td>
-            <td>Image</td>
+            <td>$product_title</td>
+            <td>img</td>
             <td>444</td>
             <td>0</td>
             <td>true</td>
