@@ -23,6 +23,11 @@
 
     </thead>
     <tbody class="bg-secondary text-light">
+        <?php
+        $get_products="select * from products";
+        $result=mysqli_query($con,$get_products);
+        
+        ?>
 <tr>
     <td>1</td>
     <td>mango</td>
