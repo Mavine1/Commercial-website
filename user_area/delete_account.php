@@ -13,6 +13,7 @@
 <?php
 $username_session=$_SESSION['username'];
 if(isset($_POST['delete'])){
-    $delete_query="Delte"
+    $delete_query="Delete from user_table where username='$username_session'"
+    $result=mysqli_query($con,)
 }
 ?>
