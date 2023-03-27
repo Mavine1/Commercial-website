@@ -61,10 +61,8 @@
                 echo "<td>paid</td>";
              }else{
                 echo "<td><a href= 'confirm.php?order_id=$order_id' 
-             class='text-light'>confirm</td>
+             class='text-light'>confirm</td></tr>";
              }
-             
-         </tr>";
              $number++;
             }
         
