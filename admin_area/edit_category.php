@@ -4,8 +4,8 @@ if(isset($_GET['edit_category'])){
 
     $get_categories="select * from categories where category_id=$edit_category";
     $result=mysqli_query($con,$get_categories);
-    $row=mysqli_fetch_assoc($result);
-    $category_title=$row[]
+    $row=mysqli_fetch_array($result);
+    $category_title=$row['category_title'];
 }
 ?>
 <div class="container mt-3">
@@ -16,6 +16,7 @@ if(isset($_GET['edit_category'])){
             <input type="text" name="category_title" id="category_title" class="form-control"
             required="required"  value='<?php echo $category_title;?>'>
         </div>
-        <input type="submit" value="update Category" class="btn btn-info px-3 mb-3">
+        <input type="submit" value="update Category" class="btn btn-info px-3 mb-3"\
+        name="edit_cat">
     </form>
 </div>
