@@ -119,4 +119,9 @@ $category_title=$row_category['category_title'];
 </form>
 </div>
 
-<!--
+<!--editing products-->
+<?php
+if(isset($_POST['edit_product'])){
+    $product_title=$_POST['']
+}
+?>
