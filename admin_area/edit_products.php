@@ -83,7 +83,13 @@ if(isset($_GET['edit_products'])){
     <div class="form-outline w-50 m-auto mb-4">
         <label for="product_price" class="form-label">product price</label>
         <input type="text" id="product_price" name="product_price" class="form-control"
-        required="required">
+        required="required" <?php 
+        
+        
+        
+        
+        
+        echo $product_image2 ?>>
     </div>
     <div class="w-50 m-auto">
         <input type="submit" name="edit_product" name="edit+product"
