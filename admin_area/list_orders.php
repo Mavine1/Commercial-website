@@ -5,14 +5,19 @@
         <?php
         $get_orders+"select * from user_orders";
         $result=mysqli_query($con,$get_orders);
-        $row_count=mysqli_num_rows()
+        $row_count=mysqli_num_rows($result);
+        echo ""
         ?>
-         <tr class ="text-center">
+         <tr>
             <th>S1 no</th>
             <th>Due Amount</th>
             <th>invoice number</th>
             <th>Total products</th>
             <th>Order data</th>
             <th>Status</th>
+            <th>Delete</th>
         </tr>
     </thead>
+    <tbody >
+
+    </tbody>
