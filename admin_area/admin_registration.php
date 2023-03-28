@@ -26,7 +26,10 @@
 </div>
     <div class="row d-flex justify-content-center align-items-center">
         <div class="col-lg-5 col-xl-5">
-            <img src="../images/dairy.png" alt="Admin Registration" class>
+            <img src="../images/dairy.png" alt="Admin Registration" class="img-fluid">
+        </div>
+        <div class="col-lg-5 col-xl-4">
+            <img src="../images/dairy.png" alt="Admin Registration" class="img-fluid">
         </div>
     </div>
 </body>
