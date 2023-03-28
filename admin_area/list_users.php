@@ -12,9 +12,9 @@ if($row_count==0){
 }else{
     echo "<tr>
         <th>S1 no</th>
-        <th>invoice number</th>
-        <th>Amount</th>
-        <th>Payment mode</th>
+        <th>username</th>
+        <th>user email</th>
+        <th>user image</th>
         <th>order date</th>
         <th>Delete</th>
     </tr>
