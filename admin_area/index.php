@@ -70,7 +70,7 @@ body{
                     <button><a href="index.php?view_brands" class="nav-link text-light bg-info my-1">View Brands</a></button>
                     <button><a href="index.php?list_orders" class="nav-link text-light bg-info my-1">All orders</a></button>
                     <button><a href="index.php?list_payments" class="nav-link text-light bg-info my-1">All payments</a></button>
-                    <button><a href="index.php?list_users.php" class="nav-link text-light bg-info my-1">List users</a></button>
+                    <button><a href="index.php?list_users" class="nav-link text-light bg-info my-1">List users</a></button>
                     <button><a href="" class="nav-link text-light bg-info my-1">Logout</a></button>
                 </div>
             </div>
