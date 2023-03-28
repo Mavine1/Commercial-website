@@ -13,7 +13,8 @@
             <td>1</td>
             <td>Juices</td>
             <td><a href='' class='text-light'><i class='fa-solid fa-pen-to-square'></i></td>
-           <td><a href=''</td> 
+           <td><a href=''class='text-light'><i class='fa-solid fa-trash'></i>
+           </a></td> 
             
         </tr>
     </tbody>
