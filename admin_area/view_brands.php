@@ -45,7 +45,7 @@
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal"><a href="./index.php?view_brands" class='text-light text-decoration-none'>No</a></button>
         <button type="button" class="btn btn-primary"><a href ='index.php?delete_brands=<?php echo $brand_id?>'
-      class="text-light" data-toggle="modal" data-target="#exampleModalCenter"</button>
+      class="text-light text-decoration-none" >Yes</a></button>
       </div>
     </div>
   </div>
