@@ -44,7 +44,8 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal"><a href="./index.php?view_brands" class='text-light text-decoration-none'>No</a></button>
-        <button type="button" class="btn btn-primary"><a href ='index.php?delete_brands=<</button>
+        <button type="button" class="btn btn-primary"><a href ='index.php?delete_brands=<?php echo $brand_id?>'type="button"
+      cal</button>
       </div>
     </div>
   </div>
