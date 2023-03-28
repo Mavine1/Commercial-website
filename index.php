@@ -32,7 +32,7 @@ session_start();
 <body>
 <!---navbar-->
 <div class="container-fluid p-0">
-<nav class="navbar navbar-expand-lg bg-info">
+<nav class="navbar navbar-expand-lg bg-success">
   <div class="container-fluid">
     <img src="./images/logo.png" alt="" class="logo">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
