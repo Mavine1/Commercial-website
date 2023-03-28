@@ -27,23 +27,9 @@ session_start();
   body{
     overflow-x:hidden;
     background: #eee;
+    
   }
-  .container-fluid{
-    position:fixed;
-    top:0;left:0;right:0;
-    Z-index:1000;
-    display: flex;
-    align-items: center;
-    justify-content:space-between;
-    padding: 2rem 9%;
-    background: #fff;
-    box-shadow: var(--box-shadow);
-  }
-  .logo{
-    font-size:2.5rem;
-    font-weight: bolder;
-    color:var(--black);
-  }
+ 
 </style>
     </head>
 <body>
