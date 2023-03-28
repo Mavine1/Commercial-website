@@ -26,6 +26,7 @@ session_start();
     <style>
   body{
     overflow-x:hidden;
+    
   }
 </style>
     </head>
