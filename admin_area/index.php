@@ -115,7 +115,7 @@ body{
             include('list_orders.php');
         }
         if(isset($_GET['list_payments'])){
-            include('list_orders.php');
+            include('list_payments.php');
         }
         ?>
         </div>
