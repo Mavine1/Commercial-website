@@ -111,7 +111,9 @@ body{
         if(isset($_GET['delete_brands'])){
             include('delete_brands.php');
         }
-        
+        if(isset($_GET['list_orders'])){
+            include('list_orders.php');
+        }
         ?>
         </div>
         <!---last child--->
