@@ -35,7 +35,8 @@ session_start();
     align-items: center;
     justify-content:space-between;
     padding: 2rem 9%;
-
+    background: #fff;
+    box-shadow: var(--box-shadow);
   }
 </style>
     </head>
