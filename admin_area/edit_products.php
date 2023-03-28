@@ -122,6 +122,11 @@ $category_title=$row_category['category_title'];
 <!--editing products-->
 <?php
 if(isset($_POST['edit_product'])){
-    $product_title=$_POST['']
+    $product_title=$_POST['product_title'];
+    $product_description=$_POST['product_description'];
+    $product_title=$_POST['product_title'];
+    $product_title=$_POST['product_title'];
+    $product_title=$_POST['product_title'];
+    $product_title=$_POST['product_title'];
 }
 ?>
