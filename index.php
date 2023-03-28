@@ -26,8 +26,8 @@ session_start();
     <style>
   body{
     overflow-x:hidden;
-    background: #eee;
-    
+    background:url(/images/apple.png) no-repeat;
+    ba
   }
  
 </style>
