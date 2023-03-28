@@ -1,10 +1,10 @@
 <?php
-if(isset($_GET['delete_category'])){
-    $delete_id=$_GET['delete_category'];
+if(isset($_GET['delete_brands'])){
+    $delete_id=$_GET['delete_brands'];
     //echo $delete_id;
     //delete query
 
-    $delete_products="Delete from categories where category_id=$delete_category";
+    $delete_products="Delete from  brand where brand_id=$delete_brands";
     $result_product=mysqli_query($con,$delete_products);
     if($result_product){
         echo "<script>alert('Category  deleted  successfully')<script>";
