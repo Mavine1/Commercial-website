@@ -76,7 +76,7 @@ include('../admin_area/functions/common_function.php');
 <?php
 
 if(isset($_POST['admin_register'])){
-    $user_username=$_POST['username'];
+    $admin_name=$_POST['admin_name'];
     $user_email=$_POST['user_email'];
     $user_password=$_POST['user_password'];
     $hash_password=password_hash($user_password,PASSWORD_DEFAULT);
@@ -88,7 +88,7 @@ if(isset($_POST['admin_register'])){
     $user_ip=getIPAddress();
 
     //select_query
-    $select_query="select * from admin_table where username='$user_username'
+    $select_query="select * from admin_table where admin_name='admin_name'
     or user_email='$user_email'";
     $result=Mysqli_query($con,$select_query);
     $rows_count=mysqli_num_rows($result);

@@ -71,7 +71,7 @@ if(isset($_POST['admin_login'])){
 
 
   //cart item
-  $select_query_cart="select * from admin_table where ip_address='$user_ip'";
+  $select_query_cart="select * from admin_table where admin_name='$admin_name'";
   $select_cart=mysqli_query($con,$select_query_cart);
   $row_count_cart=mysqli_num_rows($select_cart);
   if($row_count>0){
