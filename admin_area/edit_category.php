@@ -1,5 +1,9 @@
 <?php
-if(isset($_GET['']))
+if(isset($_GET['edit_category'])){
+    $edit_category=$_GET['edit_category'];
+
+    $get_categories='select '
+}
 ?>
 <div class="container mt-3">
     <h1 class="text-center">Edit category</h1>
