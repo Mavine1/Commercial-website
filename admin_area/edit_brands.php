@@ -3,9 +3,9 @@ if(isset($_GET['edit_brands'])){
     $edit_brands=$_GET['edit_brands'];
 
     $get_brands="select * from brands where brand_id=$edit_brands";
-    $mysqli_result=mysqli_query($con,$get_categories);
+    $mysqli_result=mysqli_query($con,$get_brands);
     $row=mysqli_fetch_array($mysqli_result);
-    $brands_title=$row['brands_title'];
+    $brand_title=$row['brand_title'];
 }
 
 if(isset($_POST['edit_cat'])){
