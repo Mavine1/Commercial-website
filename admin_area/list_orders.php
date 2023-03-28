@@ -18,7 +18,9 @@
 </thead>
 <tbody class='bg-secondary text-light'>";
 
-if
+if($row_count==0){
+    echo ""
+}
         ?>
          
 
