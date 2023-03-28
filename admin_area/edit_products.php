@@ -62,10 +62,8 @@ $category_title=$row_category['category_title'];
             while($row_category_all=mysqli_fetch_assoc($result_category)){
                 $category_title=$row_category_all['category_title'];
                 $category_id=$row_category_all['category_id'];
-                echo "<option value"
+                echo "<option value='$category_id'>$category_title</option>";
             };
-            $brand_title=$row_brand['category_title'];
-           // echo $brand_title;
             ?>
 
         </select>
