@@ -15,7 +15,7 @@ if($row_count==0){
         <th>invoice number</th>
         <th>Amount</th>
         <th>Payment mode</th>
-        <th>Status</th>
+        <th>order date</th>
         <th>Delete</th>
     </tr>
 </thead>
@@ -24,12 +24,10 @@ if($row_count==0){
     $number=0;
     while($row_data=mysqli_fetch_assoc($result)){
         $order_id=$row_data['order_id'];
-        $user_id=$row_data['user_id'];
-        $amount_due=$row_data['amount_due'];
+        $Payment_id=$row_data['payment_id'];
+        $amount=$row_data['amount'];
         $invoice_number=$row_data['invoice_number'];
-        $total_products=$row_data['total_products'];
-        $order_date=$row_data['order_date'];
-        $order_status=$row_data['$order_status'];
+        $order_mode=$row_data['$order_status'];
         $number++;
         echo " <tr>
         <td>$number</td>
