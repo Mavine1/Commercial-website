@@ -28,13 +28,14 @@ if($row_count==0){
         $amount=$row_data['amount'];
         $invoice_number=$row_data['invoice_number'];
         $payment_mode=$row_data['payment_mode'];
+        $date=$row_data['date'];
         $number++;
         echo " <tr>
         <td>$number</td>
         <td>$invoice_number</td>
         <td>$amount</td>
         <td>$payment_mode</td>
-        <td>$order_status</td>
+        <td>$date</td>
         <td><a href='' class='text-light'><i class='fa-solid fa-trash'></i>
 
     </tr>";
