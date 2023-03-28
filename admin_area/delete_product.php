@@ -8,7 +8,7 @@ if(isset($_GET['delete_product'])){
     $result_product=mysqli_query($con,$delete_products);
     if($result_product){
         echo "<script>alert('product update successfully')<script>";
-        echo "<script>window.open('"
+        echo "<script>window.open('./index.php','_self')<script>";
     }
 }
 ?>
