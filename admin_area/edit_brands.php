@@ -2,7 +2,7 @@
 if(isset($_GET['edit_brands'])){
     $edit_brands=$_GET['edit_brands'];
 
-    $get_categories="select * from categories where brands_id=$edit_brands";
+    $get_brands="select * from brands where brand_id=$edit_brands";
     $mysqli_result=mysqli_query($con,$get_categories);
     $row=mysqli_fetch_array($mysqli_result);
     $brands_title=$row['brands_title'];
