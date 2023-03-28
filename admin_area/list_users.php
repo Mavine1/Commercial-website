@@ -8,7 +8,7 @@
         $row_count=mysqli_num_rows($result);
         
 if($row_count==0){
-    echo "<h2 class='text-danger text-center mt-5'>No </h2>";
+    echo "<h2 class='text-danger text-center mt-5'>No record </h2>";
 }else{
     echo "<tr>
         <th>S1 no</th>
