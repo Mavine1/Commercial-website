@@ -36,23 +36,14 @@
             class="form-control">
            </div>
            <div class="form-outline mb-4">
-            <label for="email" class="form-label">Email</label>
-            <input type="email" id="email" name="email" placeholder="Enter your username" required="required"
-            class="form-control">
-           </div>
-           <div class="form-outline mb-4">
             <label for="password" class="form-label">Password</label>
             <input type="password" id="password" name="password" placeholder="Enter your username" required="required"
-            class="form-control">
-           
-            <label for="confirm_password" class="form-label">confirm password</label>
-            <input type="text" id="confirm_password" name="confirm_password" placeholder="Enter your username" required="required"
             class="form-control">
            </div>
            <div>
            <input type="submit" class="bg-info py-2 border-0"
            name="admin_registration" value="Register">
-           <p class="small fu-bold mt-2 pt-1">Don't you have an account? <a href="admin_login.php" class="link-danger">Login</a></p>
+           <p class="small fu-bold mt-2 pt-1">Do already have you have an account? <a href="admin_login.php" class="link-danger">Login</a></p>
     </div>
     </div>
         </form>
