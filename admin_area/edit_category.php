@@ -6,8 +6,11 @@ if(isset($_GET['edit_category'])){
     $result=mysqli_query($con,$get_categories);
     $row=mysqli_fetch_array($result);
     $category_title=$row['category_title'];
+}
 
-    
+if(isset($_POST['edit_cat'])){
+    $cat_title=$_POST["category_title"];
+    $update
 }
 ?>
 <div class="container mt-3">
