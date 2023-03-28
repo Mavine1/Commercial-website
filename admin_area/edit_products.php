@@ -54,7 +54,7 @@ $category_title=$row_category['category_title'];
     <div class="form-outline w-50 m-auto mb-4">
     <label for="product_category" class="form-label">product categories</label>
         <select name="product_category" class="form-select">
-            <option value="<?php echo $category_title?>"></option>
+            <option value="<?php echo $category_title?>"><?php echo $category_title?></option>
             <option value=""></option>
             <option value=""></option>
             <option value=""></option>
