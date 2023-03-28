@@ -156,7 +156,8 @@ if(isset($_POST['edit_product'])){
         $result_update=mysqli_query($con,$update_products);
         if($result_update){
             echo "<script>alert ('product updated successfully')</script>";
-            
+            echo "<script>window.open('_/insert_product.php','_self')</script>";
+
         }
 
     }
