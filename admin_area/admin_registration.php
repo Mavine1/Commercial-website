@@ -49,7 +49,6 @@
             <input type="text" id="confirm_password" name="confirm_password" placeholder="Enter your username" required="required"
             class="form-control">
            </div>
-           </div>
            <div>
            <input type="submit" class="bg-info py-2 border-0"
            name="admin_registration" value="Register">
