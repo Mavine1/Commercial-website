@@ -26,8 +26,7 @@ session_start();
     <style>
   body{
     overflow-x:hidden;
-    background:yellow;
-    ba
+  
   }
  
 </style>
