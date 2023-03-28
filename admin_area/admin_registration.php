@@ -24,6 +24,8 @@
     <div class="container-fluid m-3">
         <h2 class="text-container mb-5">Admin Registration</h2>
 </div>
-    <div ></div>
+    <div class="row d-flex justify-content-center align-items-center">
+        div
+    </div>
 </body>
 </html>
