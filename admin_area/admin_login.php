@@ -63,12 +63,12 @@ if(isset($_POST['admin_login'])){
   $username=$_POST['username'];
   $user_password=$_POST['user_password'];
 
-  $select_query="select * from user_table 
+  $select_query="select * from admin_table 
   where username='$username'";
   $result=mysqli_query($con,$select_query);
   $row_count=mysqli_num_rows($result);
   $row_data=mysqli_fetch_assoc($result);
-  $user_ip=getIPAddress();
+
 
   //cart item
   $select_query_cart="select * from admin_table where ip_address='$user_ip'";
