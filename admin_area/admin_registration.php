@@ -50,10 +50,13 @@
             class="form-control">
            </div>
            </div>
-           <input type="submit" class="bg-info py-2 border-o"
+           <div>
+           <input type="submit" class="bg-info py-2 border-0"
            name="admin_registration" value="Register">
            <p class="small fu-bold mt-2 pt-1">Don't you have an account? <a href="admin_login.php" class="link-danger">Login</a></p>
-           </form>
+    </div>
+    </div>
+        </form>
         </div>
     </div>
 </body>
