@@ -30,7 +30,12 @@ session_start();
   .container-fluid{
     position:fixed;
     top:0;left:0;right:0;
-    
+    Z-index:1000;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 2rem 9%;
+
   }
 </style>
     </head>
