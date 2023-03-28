@@ -59,13 +59,13 @@ $category_title=$row_category['category_title'];
             <?php
             $select_category_all="select * from categories";
             $result_category_all=mysqli_query($con,$select_category_all);
-            while($row_category_all=mysqli_fetch_assoc($result_category)){};
+            while($row_category_all=mysqli_fetch_assoc($result_category)){
+                $category_title=$row_category_all[]
+            };
             $brand_title=$row_brand['category_title'];
            // echo $brand_title;
             ?>
-            <option value=""></option>
-            <option value=""></option>
-            <option value=""></option>
+
         </select>
     </div>
     <div class="form-outline w-50 m-auto mb-4">
