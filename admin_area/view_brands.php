@@ -23,7 +23,7 @@
         <tr class="bg-secondary text-light">
             <td><?php echo $number;?></td>
             <td><?php echo $brand_title;?></td>
-            <td><a href='' class='text-light'><i class='fa-solid fa-pen-to-square'></i></td>
+            <td><a href='index.php?edit_brands=<?php echo' class='text-light'><i class='fa-solid fa-pen-to-square'></i></td>
            <td><a href=''class='text-light'><i class='fa-solid fa-trash'></i>
            </a></td> 
             

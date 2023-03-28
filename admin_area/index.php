@@ -102,7 +102,7 @@ body{
             include('edit_category.php');
         }
         if(isset($_GET['edit_brands'])){
-            include('edit_category.php');
+            include('edit_brands.php');
         }
         ?>
         </div>
