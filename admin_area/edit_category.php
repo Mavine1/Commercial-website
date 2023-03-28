@@ -8,6 +8,6 @@
             required="required">
         </div>
         <input type="submit" value="update Category" class="btn btn-info px-3 mb-3"
-        required="required" value='>
+        required="required" value='<?php echo $category_title;?>'>
     </form>
 </div>
