@@ -32,7 +32,8 @@
            <form action="" method="POST">
            <div class="form-outline-mb-4">
             <label for="username" class="form-label">username</label>
-            <input type="text" id>
+            <input type="text" id="username" name="username" placeholder="Enter your username" required="required"
+            c>
            </div>
            </form>
         </div>
