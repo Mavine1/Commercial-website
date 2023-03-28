@@ -143,7 +143,9 @@ if(isset($_POST['edit_product'])){
     or $product_image2=='' or $product_image3=='' or $product_price==''){
      echo "<script> alert('please fill all the fields and continue the process')</script>";  
     }else{
-        move_
+        move_uploaded_file($temp_image1,"./product_images/$product_image1");
+        move_uploaded_file($temp_image2,"./product_images/$product_image1");
+        move_uploaded_file($temp_image2,"./product_images/$product_image1");
     }
   
 }
