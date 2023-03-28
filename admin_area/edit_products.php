@@ -139,7 +139,8 @@ if(isset($_POST['edit_product'])){
 
     //checking if fields are empty
     if($product_title=='' or $product_description=='' or $product_keyword==''
-    )
+    or $product_category=='' or $product_brands=='' or $product_image1=''
+    or $product_image2=='' or )
   
 }
 
