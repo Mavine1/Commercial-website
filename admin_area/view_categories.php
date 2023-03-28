@@ -8,5 +8,12 @@
             <th>Delete</th>
         </tr>
     </thead>
-    <tbody
+    <tbody class="bg-secondary text-light">
+        <tr>
+            <td>1</td>
+            <td>Juices</td>
+            <td></td>
+            <td></td>
+        </tr>
+    </tbody>
 </table>
