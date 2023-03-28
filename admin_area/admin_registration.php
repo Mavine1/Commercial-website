@@ -50,7 +50,9 @@
             class="form-control">
            </div>
            </div>
-           <input type="submit" class=>
+           <input type="submit" class="bg-info py-2 border-o"
+           name="admin_registration" value="Register">
+           p
            </form>
         </div>
     </div>
