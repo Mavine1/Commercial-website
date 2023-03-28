@@ -75,7 +75,7 @@ session_start();
            echo "<li class='nav-item'>
            <a class='nav-link' href='#'>Welcome ".$_session['username']."</a>";
          }
-         ?>
+      
 
         if(!isset($_SESSION['username'])){
            echo "<li class='nav-item'>
