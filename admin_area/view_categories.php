@@ -12,8 +12,8 @@
         <tr>
             <td>1</td>
             <td>Juices</td>
-            <td></td>
-            <td></td>
+            <td>Edit</td>
+            <td>Delete</td>
         </tr>
     </tbody>
 </table>
