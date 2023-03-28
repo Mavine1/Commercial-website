@@ -16,7 +16,9 @@ if(isset($_GET['edit_products'])){
     $product_price=$row['product_price'];
 
     //fetching category name
-    $select_category="select * from categories where category_id=$category"
+    $select_category="select * from categories where category_id=$category_id";
+    $result_category=mysqli_query($con,$get_date);
+    $row_category=mysqli_fetch_assoc($result_category);
 }
 ?>
 <div class="container nt-5">
