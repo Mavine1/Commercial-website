@@ -14,7 +14,8 @@ if(isset($_POST['edit_cat'])){
     category_id=$edit_category";
     $result_cat=mysqli_query($con,$update_query);
     if($result_cat){
-        echo "<script>alert('category has been updated successfully')</script>"
+        echo "<script>alert('category has been updated successfully')</script>";
+        echo "<script>window.open('./view_categories.php','_self')</script>";
     }
 }
 ?>
