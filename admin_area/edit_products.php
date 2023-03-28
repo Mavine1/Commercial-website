@@ -20,7 +20,7 @@ if(isset($_GET['edit_products'])){
     $result_category=mysqli_query($con,$select_category);
     $row_category=mysqli_fetch_assoc($result_category);
     $brand_title=$row_brand['category_title'];
-    echo $brand_title;
+   // echo $brand_title;
 
 
 //fetching category name
@@ -28,7 +28,7 @@ $select_brand="select * from brands where brand_id=$brand_id";
 $result_brand=mysqli_query($con,$select_brand);
 $row_brand=mysqli_fetch_assoc($result_brand);
 $category_title=$row_category['category_title'];
-echo $category_title;
+//echo $category_title;
 }
 ?>
 <div class="container nt-5">
@@ -54,7 +54,7 @@ echo $category_title;
     <div class="form-outline w-50 m-auto mb-4">
     <label for="product_category" class="form-label">product categories</label>
         <select name="product_category" class="form-select">
-            <option value=""></option>
+            <option value="<?php echo $category_title?>"></option>
             <option value=""></option>
             <option value=""></option>
             <option value=""></option>
