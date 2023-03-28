@@ -88,6 +88,7 @@ if(isset($_POST['user_register'])){
     $user_password=$_POST['user_password'];
     $hash_password=password_hash($user_password,PASSWORD_DEFAULT);
     $confirm_user_password=$_POST['confirm_user_password'];
+    $user_address=$_POST['user_address'];
     $user_contact=$_POST['user_contact'];
     $user_image=$_FILES['user_image'];['name'];
     $user_image=$_FILES['user_image'];['tmp_name'];
