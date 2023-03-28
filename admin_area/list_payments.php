@@ -4,18 +4,17 @@
        
         <?php
         $Get_payments="select * from user_payments";
-        $result=mysqli_query($con,$Get_orders);
+        $result=mysqli_query($con,$Get_payments);
         $row_count=mysqli_num_rows($result);
         
 if($row_count==0){
-    echo "<h2 class='text-danger text-center mt-5'>No orders </h2>";
+    echo "<h2 class='text-danger text-center mt-5'>No Payments received  yet </h2>";
 }else{
     echo "<tr>
         <th>S1 no</th>
-        <th>Due Amount</th>
         <th>invoice number</th>
-        <th>Total products</th>
-        <th>Order data</th>
+        <th>Amount</th>
+        <th>Payment mode</th>
         <th>Status</th>
         <th>Delete</th>
     </tr>
