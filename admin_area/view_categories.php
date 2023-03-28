@@ -12,7 +12,10 @@
     <?php
     $select_cat="select * from categories ";
     $result=mysqli_query($con,$select_cat);
-    while()
+    while($row=mysqli_fetch_assoc($result)){
+        $category_id=$row['category_id'];
+        $category_title=$row['']
+    }
     ?>
         <tr class="bg-secondary text-light">
             <td>1</td>
