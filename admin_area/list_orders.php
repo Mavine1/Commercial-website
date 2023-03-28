@@ -6,7 +6,11 @@
         $Get_orders="select * from user_orders";
         $result=mysqli_query($con,$Get_orders);
         $row_count=mysqli_num_rows($result);
-        echo "<tr>
+        
+if($row_count==0){
+    echo "<h2 class='text-danger text-center mt-5'>No orders </h2>";
+}else{
+    echo "<tr>
         <th>S1 no</th>
         <th>Due Amount</th>
         <th>invoice number</th>
@@ -18,9 +22,6 @@
 </thead>
 <tbody class='bg-secondary text-light'>";
 
-if($row_count==0){
-    echo "<h2 class='text-danger text-center mt-5'>No orders </h2>";
-}else{
     $number=0;
     while($row_data=mysqli_fetch_assoc($result)){
         $order_id=$row_data['order_id'];
