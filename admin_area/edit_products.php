@@ -141,7 +141,9 @@ if(isset($_POST['edit_product'])){
     if($product_title=='' or $product_description=='' or $product_keyword==''
     or $product_category=='' or $product_brands=='' or $product_image1=''
     or $product_image2=='' or $product_image3=='' or $product_price==''){
-     echo "<script>"   
+     echo "<script> alert('please fill all the fields and continue the process')</script>";  
+    }else{
+        move_
     }
   
 }
