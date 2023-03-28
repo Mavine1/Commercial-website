@@ -23,7 +23,10 @@ if($row_count==0){
 }else{
     $number=0;
     while($row_data=mysqli_fetch_assoc($result)){
-        $order_id=
+        $order_id=$row_data['order_id'];
+        $user_id=$row_data['user_id'];
+        $amount_due=$row_data['amount_due'];
+        $invoice_number
     }
 }
         ?>
