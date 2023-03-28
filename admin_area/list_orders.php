@@ -31,19 +31,20 @@ if($row_count==0){
         $order_id=$row_data['order_id'];
         $order_status=$row_data['$order_status'];
         $number++;
-        echo "";
+        echo " <tr>
+        <td>$number</td>
+        <td>$amount_due</td>
+        <td>$in</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>";
     }
 }
         ?>
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
+       
          
 
     </tbody>
+</table>
