@@ -19,7 +19,7 @@
 <tbody class='bg-secondary text-light'>";
 
 if($row_count==0){
-    echo "<h2 class='bg-danger text-center mt-5'>No orders </h2>";
+    echo "<h2 class='text-danger text-center mt-5'>No orders </h2>";
 }else{
     $number=0;
     while($row_data=mysqli_fetch_assoc($result)){
