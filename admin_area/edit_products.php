@@ -151,7 +151,7 @@ if(isset($_POST['edit_product'])){
         $update_products="update products set product_title='$product_title',
         product_description='$product_description',product_keyword='$product_keyword',category_id='$product_category',
         brand_id='product_brand', product_image1='$product_image1',product_image2='$product_image2'
-        product_image"
+        product_image3='$product_image3',product_price='$product_price',date=NOW()where"
     }
   
 }
