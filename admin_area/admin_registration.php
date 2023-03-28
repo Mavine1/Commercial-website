@@ -22,7 +22,7 @@
 </head>
 <body>
     <div class="container-fluid m-3">
-        <h2 class="text-container mb-5">Admin Registration</h2>
+        <h2 class="text-center  mb-5">Admin Registration</h2>
 </div>
     <div class="row d-flex justify-content-center align-items-center">
         <div class="col-lg-5 col-xl-5">
