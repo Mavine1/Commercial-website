@@ -60,7 +60,9 @@ $category_title=$row_category['category_title'];
             $select_category_all="select * from categories";
             $result_category_all=mysqli_query($con,$select_category_all);
             while($row_category_all=mysqli_fetch_assoc($result_category)){
-                $category_title=$row_category_all[]
+                $category_title=$row_category_all['category_title'];
+                $category_id=$row_category_all['category_id'];
+                echo "<option value"
             };
             $brand_title=$row_brand['category_title'];
            // echo $brand_title;
