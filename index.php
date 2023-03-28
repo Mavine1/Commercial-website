@@ -40,7 +40,9 @@ session_start();
     box-shadow: var(--box-shadow);
   }
   .logo{
-    
+    font-size:2.5rem;
+    font-weight: bolder;
+    color:var(--black);
   }
 </style>
     </head>
