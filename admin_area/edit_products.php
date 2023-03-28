@@ -149,7 +149,8 @@ if(isset($_POST['edit_product'])){
 
         //query to update products
         $update_products="update products set product_title='$product_title',
-        category_id='$product_category"
+        category_id='$product_category',brand_id='$product_brand',product_description='$product_description',
+        product_keyword='"
     }
   
 }
