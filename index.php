@@ -26,6 +26,7 @@ session_start();
     <style>
   body{
     overflow-x:hidden;
+    background: #eee;
   }
   .container-fluid{
     position:fixed;
@@ -37,6 +38,9 @@ session_start();
     padding: 2rem 9%;
     background: #fff;
     box-shadow: var(--box-shadow);
+  }
+  .logo{
+    
   }
 </style>
     </head>
