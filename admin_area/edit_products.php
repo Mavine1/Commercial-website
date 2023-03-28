@@ -137,7 +137,9 @@ if(isset($_POST['edit_product'])){
     $temp_image2=$_FILES['product_image2'];['tmp_name'];
     $temp_image3=$_FILES['product_image3'];['tmp_name'];
 
-    //checking if fields 
+    //checking if fields are empty
+    if($product_title=='' or $product_description=='' or $product_keyword==''
+    )
   
 }
 
