@@ -64,7 +64,7 @@ if(isset($_POST['admin_login'])){
   $user_password=$_POST['user_password'];
 
   $select_query="select * from admin_table 
-  where username='$username'";
+  where admin_table='$admin_name'";
   $result=mysqli_query($con,$select_query);
   $row_count=mysqli_num_rows($result);
   $row_data=mysqli_fetch_assoc($result);
