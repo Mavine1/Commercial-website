@@ -10,7 +10,9 @@ if(isset($_GET['edit_category'])){
 
 if(isset($_POST['edit_cat'])){
     $cat_title=$_POST["category_title"];
-    $update
+    $update_query="update categories set category_title='cat_title' where
+    category_id=$edit_category";
+    $result_cat=mysqli
 }
 ?>
 <div class="container mt-3">
