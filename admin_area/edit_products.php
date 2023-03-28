@@ -113,8 +113,10 @@ $category_title=$row_category['category_title'];
         required="required" value="<?php echo $product_price ?>">
     </div>
     <div class="w-50 m-auto">
-        <input type="submit" name="edit_product" name="edit+product"
+        <input type="submit" name="edit_product" value="update product"
      class ="btn btn-info px-3 mb-3">
     </div>
 </form>
 </div>
+
+<!--
