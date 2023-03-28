@@ -1,3 +1,4 @@
+
 <div class="container mt-3">
     <h1 class="text-center">Edit category</h1>
     <form action="" method="post" class ="text-center">
@@ -6,6 +7,6 @@
             <input type="text" name="category_title" id="category_title" class="form-control"
             required="required">
         </div>
-        <input type="submit" value
+        <input type="submit" value="update Category" class="btn btn-info px-3 mb-3">
     </form>
 </div>
