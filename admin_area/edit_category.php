@@ -3,8 +3,8 @@ if(isset($_GET['edit_category'])){
     $edit_category=$_GET['edit_category'];
 
     $get_categories="select * from categories where category_id=$edit_category";
-    $result=mysqli_query($con,$get_categories);
-    $row=mysqli_fetch_array($result);
+    $mysqli_result=mysqli_query($con,$get_categories);
+    $row=mysqli_fetch_array($mysqli_result);
     $category_title=$row['category_title'];
 }
 
@@ -15,7 +15,7 @@ if(isset($_POST['edit_cat'])){
     $result_cat=mysqli_query($con,$update_query);
     if($result_cat){
         echo "<script>alert('category has been updated successfully')</script>";
-        echo "<script>window.open('./view_categories.php','_self')</script>";
+        echo "<script>window.open('.index.p/view_categories.php','_self')</script>";
     }
 }
 ?>
