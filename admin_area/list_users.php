@@ -24,8 +24,8 @@ if($row_count==0){
 
     $number=0;
     while($row_data=mysqli_fetch_assoc($result)){
-        $order_id=$row_data['order_id'];
-        $Payment_id=$row_data['payment_id'];
+        $user_id=$row_data['user_id'];
+        $Payment_id=$row_data['username'];
         $amount=$row_data['amount'];
         $invoice_number=$row_data['invoice_number'];
         $payment_mode=$row_data['payment_mode'];
