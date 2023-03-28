@@ -57,7 +57,7 @@ include('../admin_area/functions/common_function.php');
             class="form-control">
            
             <label for="confirm_password" class="form-label">confirm password</label>
-            <input type="text" id="confirm_password" name="confirm_password" placeholder="Enter your username" required="required"
+            <input type="password" id="confirm_password" name="confirm_password" placeholder="Enter your username" required="required"
             class="form-control">
            </div>
            <div>
