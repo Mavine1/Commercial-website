@@ -150,8 +150,11 @@ if(isset($_POST['edit_product'])){
         //query to update products
         $update_products="update products set product_title='$product_title',
         product_description='$product_description',product_keyword='$product_keyword',category_id='$product_category',
-        brand_id='product_brand', product_image1='$product_image1',product_image2='$product_image2'
-        product_image3='$product_image3',product_price='$product_price',date=NOW()where"
+        brand_id='$product_brand', product_image1='$product_image1',product_image2='$product_image2'
+        product_image3='$product_image3',product_price='$product_price',date=NOW() where
+        Product_id=$edit_id";
+        $result_update=mysqli_query($con,$update_products);
+
     }
   
 }
