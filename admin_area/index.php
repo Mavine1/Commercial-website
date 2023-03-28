@@ -105,7 +105,7 @@ body{
             include('edit_brands.php');
         }
         if(isset($_GET['delete_category'])){
-            include('delete.php');
+            include('delete_category.php');
         }
         ?>
         </div>
