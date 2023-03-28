@@ -28,14 +28,14 @@ if($row_count==0){
         $username=$row_data['username'];
         $user_email=$row_data['user_email'];
         $user_image=$row_data['user_image'];
-        $=$row_data['payment_mode'];
-        $date=$row_data['date'];
+        $user_address=$row_data['user_address'];
+        $user_mobile=$row_data['user_mobile'];
         $number++;
         echo " <tr>
         <td>$number</td>
-        <td>$invoice_number</td>
-        <td>$amount</td>
-        <td>$payment_mode</td>
+        <td>$username</td>
+        <td>$user_email</td>
+        <td>$</td>
         <td>$date</td>
         <td><a href='' class='text-light'><i class='fa-solid fa-trash'></i>
 
