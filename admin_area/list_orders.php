@@ -38,7 +38,8 @@ if($row_count==0){
         <td>$total_products</td>
         <td>$order_date</td>
         <td>$order_status</td>
-        <td>delete</td>
+        <td><a href='index.php?delete_brands=<?php echo $brand_id?>'type="button" class='text-light' data-toggle="modal" data-target="#exampleModalCenter"><i class='fa-solid fa-trash'></i>
+
     </tr>";
     }
 }
