@@ -35,8 +35,10 @@ if($row_count==0){
         <td>$number</td>
         <td>$username</td>
         <td>$user_email</td>
-        <td><img src='../user_area/'alt='$username'/></td>
-        <td>$date</td>
+        <td><img src='../user_area/user_images/$user_image'alt='$username'/></td>
+        <td>$number</td>
+        <td>$user_address</td>
+        <td>$</td>
         <td><a href='' class='text-light'><i class='fa-solid fa-trash'></i>
 
     </tr>";
