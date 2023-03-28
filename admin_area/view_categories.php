@@ -12,8 +12,8 @@
         <tr>
             <td>1</td>
             <td>Juices</td>
-            <td>Edit</td>
-            <td>Delete</td>
+            <td><a href='' class='text-light'><i class='fa-solid</td>
+            
         </tr>
     </tbody>
 </table>
