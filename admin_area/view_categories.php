@@ -21,13 +21,14 @@
     
     ?>
         <tr class="bg-secondary text-light">
-            <td>1</td>
-            <td>Juices</td>
+            <td><?php echo $number;?></td>
+            <td><?php echo $;?></td>
             <td><a href='' class='text-light'><i class='fa-solid fa-pen-to-square'></i></td>
            <td><a href=''class='text-light'><i class='fa-solid fa-trash'></i>
            </a></td> 
             
         </tr>
         <?php
+    }?>
     </tbody>
 </table>
