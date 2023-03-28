@@ -31,7 +31,8 @@
         <div class="col-lg-6 col-lx-4">
            <form action="" method="POST">
            <div class="form-outline-mb-4">
-            <label for="username" class=></label>
+            <label for="username" class="form-label">username</label>
+            <input type="text" id>
            </div>
            </form>
         </div>
