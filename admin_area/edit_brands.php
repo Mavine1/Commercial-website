@@ -9,7 +9,7 @@ if(isset($_GET['edit_brands'])){
 }
 
 if(isset($_POST['edit_cat'])){
-    $cat_title=$_POST["brands_title"];
+    $cat_title=$_POST["brand_title"];
     $update_query="update categories set brands_title='cat_title' where
     brands_id=$edit_brands";
     $result_cat=mysqli_query($con,$update_query);
@@ -25,7 +25,7 @@ if(isset($_POST['edit_cat'])){
         <div class="form-outline mb-4 w-50 m-auto">
             <label for="brands_title" class="form-label">brands Title</label>
             <input type="text" name="brands_title" id="brands_title" class="form-control"
-            required="required"  value='<?php echo $brands_title;?>'>
+            required="required"  value='<?php echo $brand_title;?>'>
         </div>
         <input type="submit" value="update brands" class="btn btn-info px-3 mb-3"\
         name="edit_cat">
