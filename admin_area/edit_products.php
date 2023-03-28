@@ -71,7 +71,7 @@ $category_title=$row_category['category_title'];
     <div class="form-outline w-50 m-auto mb-4">
     <label for="product_brand" class="form-label">product brands</label>
         <select name="product_brands" class="form-select">
-        <option value="<?php echo $category_title?>"><?php echo $category_title?></option> 
+        <option value="<?php echo $brand_title?>"><?php echo $brand_title?></option> 
         <?php
             $select_brand_all="select * from brands";
             $result_brand_all=mysqli_query($con,$select_brand_all);
