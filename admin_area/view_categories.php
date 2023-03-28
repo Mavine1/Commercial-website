@@ -22,7 +22,7 @@
     ?>
         <tr class="bg-secondary text-light">
             <td><?php echo $number;?></td>
-            <td><?php echo $;?></td>
+            <td><?php echo $category_title;?></td>
             <td><a href='' class='text-light'><i class='fa-solid fa-pen-to-square'></i></td>
            <td><a href=''class='text-light'><i class='fa-solid fa-trash'></i>
            </a></td> 

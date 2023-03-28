@@ -95,6 +95,9 @@ body{
         if(isset($_GET['view_categories'])){
             include('view_categories.php');
         }
+        if(isset($_GET['view_brands'])){
+            include('view_brands.php');
+        }
         ?>
         </div>
         <!---last child--->
