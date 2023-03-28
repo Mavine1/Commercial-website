@@ -27,7 +27,12 @@ if($row_count==0){
         $user_id=$row_data['user_id'];
         $amount_due=$row_data['amount_due'];
         $invoice_number=$row_data['invoice_number'];
-        $total_products=$row_data['total_products']
+        $total_products=$row_data['total_products'];
+        $order_id=$row_data['order_id'];
+        $order_status=$row_data['$order_status'];
+        number=
+
+
     }
 }
         ?>
