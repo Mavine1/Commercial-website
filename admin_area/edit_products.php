@@ -71,7 +71,7 @@ $category_title=$row_category['category_title'];
     <div class="form-outline w-50 m-auto mb-4">
     <label for="product_brand" class="form-label">product brands</label>
         <select name="product_brands" class="form-select">
-            <option value="<?php"></option>
+            <option value="<?php echo $brand_title?>"><?php echo $brand_title?></option>
             <option value=""></option>
             <option value=""></option>
             <option value=""></option>
