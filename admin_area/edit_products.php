@@ -124,9 +124,14 @@ $category_title=$row_category['category_title'];
 if(isset($_POST['edit_product'])){
     $product_title=$_POST['product_title'];
     $product_description=$_POST['product_description'];
+    $product_keyword=$_POST['product_keyword'];
+    $product_category=$_POST['product_category'];
+    $product_brands=$_POST['product_brands'];
     $product_title=$_POST['product_title'];
     $product_title=$_POST['product_title'];
     $product_title=$_POST['product_title'];
-    $product_title=$_POST['product_title'];
+    
+}
+
 }
 ?>
