@@ -25,12 +25,14 @@
         <h2 class="text-center  mb-5">Admin Registration</h2>
 </div>
     <div class="row d-flex justify-content-center align-items-center">
-        <div class="col-lg-6">
+        <div class="col-lg-6 col-lx-4">
             <img src="../images/dairy.png" alt="Admin Registration" class="img-fluid">
         </div>
-        <div class="col-lg-6 ">
+        <div class="col-lg-6 col-lx-4">
            <form action="" method="POST">
-            
+           <div class="form-outline-mb-4">
+            <label for="username" class=></label>
+           </div>
            </form>
         </div>
     </div>
