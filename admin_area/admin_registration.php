@@ -41,7 +41,12 @@
             class="form-control">
            </div>
            <div class="form-outline mb-4">
-            <label for="username" class="form-label">Password</label>
+            <label for="password" class="form-label">Password</label>
+            <input type="text" id="password" name="password" placeholder="Enter your username" required="required"
+            class="form-control">
+           </div>
+           <div class="form-outline mb-4">
+            <label for="username" class="form-label">confirm</label>
             <input type="text" id="username" name="username" placeholder="Enter your username" required="required"
             class="form-control">
            </div>
