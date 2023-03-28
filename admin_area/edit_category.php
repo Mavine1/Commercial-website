@@ -2,7 +2,8 @@
 if(isset($_GET['edit_category'])){
     $edit_category=$_GET['edit_category'];
 
-    $get_categories='select '
+    $get_categories="select * from categories where category_id=$edit_category";
+    $result=mysqli_query
 }
 ?>
 <div class="container mt-3">
