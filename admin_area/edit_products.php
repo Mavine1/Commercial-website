@@ -56,7 +56,13 @@ $category_title=$row_category['category_title'];
         <select name="product_category" class="form-select">
             <option value="<?php echo $category_title?>"><?php echo $category_title?></option>
             <option value="<?php echo $brand_title?>"><?php echo $brand_title?></option>
-            <
+            <?php
+            $select_category_all="select * from categories";
+            $result_category=mysqli_query($con,$select_categor_all);
+            $row_category=mysqli_fetch_assoc($result_category);
+            $brand_title=$row_brand['category_title'];
+           // echo $brand_title;
+            ?>
             <option value=""></option>
             <option value=""></option>
             <option value=""></option>
