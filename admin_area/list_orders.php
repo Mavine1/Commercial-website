@@ -3,8 +3,8 @@
     <thead class="bg-info">
        
         <?php
-        $get_orders+"select * from user_orders";
-        $result=mysqli_query($con,$get_orders);
+        $Get_orders="select * from user_orders";
+        $result=mysqli_query($con,$Get_orders);
         $row_count=mysqli_num_rows($result);
         echo "<tr>
         <th>S1 no</th>
