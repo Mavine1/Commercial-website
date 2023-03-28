@@ -30,12 +30,20 @@ if($row_count==0){
         $total_products=$row_data['total_products'];
         $order_id=$row_data['order_id'];
         $order_status=$row_data['$order_status'];
-        number=
-
-
+        $number++;
+        echo "";
     }
 }
         ?>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
          
 
     </tbody>
