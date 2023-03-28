@@ -114,6 +114,9 @@ body{
         if(isset($_GET['list_orders'])){
             include('list_orders.php');
         }
+        if(isset($_GET['list_payments'])){
+            include('list_orders.php');
+        }
         ?>
         </div>
         <!---last child--->
