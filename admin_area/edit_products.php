@@ -71,13 +71,14 @@ $category_title=$row_category['category_title'];
     <div class="form-outline w-50 m-auto mb-4">
     <label for="product_brand" class="form-label">product brands</label>
         <select name="product_brands" class="form-select">
+        <option value="<?php echo $category_title?>"><?php echo $category_title?></option> 
         <?php
-            $select_category_all="select * from brands";
-            $result_category_all=mysqli_query($con,$select_category_all);
-            while($row_category_all=mysqli_fetch_assoc($result_category)){
-                $category_title=$row_category_all['category_title'];
-                $category_id=$row_category_all['category_id'];
-                echo "<option value='$category_id'>$category_title</option>";
+            $select_brand_all="select * from brands";
+            $result_brand_all=mysqli_query($con,$select_brand_all);
+            while($row_brand_all=mysqli_fetch_assoc($result_brand)){
+                $brand_title=$row_brand_all['brand_title'];
+                $brand_id=$row_brand_all['brand_id'];
+                echo "<option value='$brand_id'>$brand_title</option>";
             };
             ?>
         </select>
