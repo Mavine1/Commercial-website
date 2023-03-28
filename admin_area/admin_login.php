@@ -25,7 +25,7 @@
         <h2 class="text-center  mb-5">Admin login</h2>
 </div>
     <div class="row d-flex justify-content-center ">
-        <div class="col-lg-6 col-lx-4">
+        <div class="col-lg-6 col-lx-5">
             <img src="../images/dairy.png" alt="Admin Registration" class="img-fluid">
         </div>
         <div class="col-lg-6 col-lx-4">
@@ -42,7 +42,7 @@
            </div>
            <div>
            <input type="submit" class="bg-info py-2 border-0"
-           name="admin_registration" value="Register">
+           name="admin_registration" value="Login">
            <p class="small fu-bold mt-2 pt-1">Don't you have an account? <a href="admin_registration.php" class="link-danger">Register</a></p>
     </div>
     </div>
