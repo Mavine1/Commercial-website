@@ -25,10 +25,10 @@ if($row_count==0){
     $number=0;
     while($row_data=mysqli_fetch_assoc($result)){
         $user_id=$row_data['user_id'];
-        $Payment_id=$row_data['username'];
-        $amount=$row_data['amount'];
-        $invoice_number=$row_data['invoice_number'];
-        $payment_mode=$row_data['payment_mode'];
+        $username=$row_data['username'];
+        $user_email=$row_data['user_email'];
+        $user_image=$row_data['user_image'];
+        $=$row_data['payment_mode'];
         $date=$row_data['date'];
         $number++;
         echo " <tr>
