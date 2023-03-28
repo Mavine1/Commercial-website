@@ -104,6 +104,9 @@ body{
         if(isset($_GET['edit_brands'])){
             include('edit_brands.php');
         }
+        if(isset($_GET['delete_category'])){
+            include('delete.php');
+        }
         ?>
         </div>
         <!---last child--->
