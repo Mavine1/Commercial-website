@@ -24,9 +24,9 @@
             <td><?php echo $number;?></td>
             <td><?php echo $brand_title;?></td>
             <td><a href='index.php?edit_brands=<?php echo $brand_id?>' type="button" class='btn btn-primary text-light' data-toggle="modal"
-            data-target="#examplemodal"><i class='fa-solid fa-pen-to-square'></i></td>
-           <!--<td><a href='index.php?delete_brands=<?php echo $brand_id?>'class='text-light'><i class='fa-solid fa-trash'></i>
-           </a></td> -->
+            data-target="examplemodal"><i class='fa-solid fa-pen-to-square'></i></td>
+           <td><a href='index.php?delete_brands=<?php echo $brand_id?>'class='text-light'><i class='fa-solid fa-trash'></i>
+           </a></td> 
             
         </tr>
         <?php
