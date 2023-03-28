@@ -154,6 +154,10 @@ if(isset($_POST['edit_product'])){
         product_image3='$product_image3',product_price='$product_price',date=NOW() where
         Product_id=$edit_id";
         $result_update=mysqli_query($con,$update_products);
+        if($result_update){
+            echo "<script>alert ('product updated successfully')</script>";
+            
+        }
 
     }
   
