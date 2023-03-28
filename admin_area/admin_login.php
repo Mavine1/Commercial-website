@@ -51,8 +51,10 @@
     </div>
 </body>
 </html>
+
+<!--php code-->
 <?php
-<!--php code
+
 if(isset($_POST['user_register'])){
     $user_username=$_POST['username'];
     $user_email=$_POST['user_email'];
@@ -85,3 +87,5 @@ user_address,user_mobile) values ('$user_username','$user_email','$hash_password
 '$user_image','$user_ip','$user_address','$user_contact')";
 $sql_execute=mysqli_query($con,$insert_query);
 }
+}
+?>
