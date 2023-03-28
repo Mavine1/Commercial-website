@@ -9,7 +9,10 @@
         </tr>
     </thead>
     <tbody class="bg-secondary text-light">
-        <tr>
+    <?php
+    $select_cat=
+    ?>
+        <tr class="bg-secondary text-light">
             <td>1</td>
             <td>Juices</td>
             <td><a href='' class='text-light'><i class='fa-solid fa-pen-to-square'></i></td>
