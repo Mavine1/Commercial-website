@@ -3,7 +3,7 @@
     <thead class="bg-info">
        
         <?php
-        $Get_orders="select * from user_orders";
+        $Get_payments="select * from user_payments";
         $result=mysqli_query($con,$Get_orders);
         $row_count=mysqli_num_rows($result);
         
