@@ -14,9 +14,16 @@
      <script src="https://kit.fontawesome.com/4b57ca4420.js" crossorigin="anonymous"></script>
      <!---Css-->
     <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            overflow: ;
+        }
+    </style>
 </head>
 <body>
-    <div class="container-fluid m-3></div>
+    <div class="container-fluid m-3">
+        <h2 class="text-container mb-5">Admin Registration</h2>
+</div>
     
 </body>
 </html>
