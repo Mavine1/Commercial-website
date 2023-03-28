@@ -15,8 +15,9 @@ if($row_count==0){
         <th>username</th>
         <th>user email</th>
         <th>user image</th>
-        <th>order date</th>
-        <th>Delete</th>
+        <th>user address</th>
+        <th>user mobile</th>
+        <th>Delete </th>
     </tr>
 </thead>
 <tbody class='bg-secondary text-light'>";
