@@ -1,7 +1,7 @@
 <?php
 if(isset($_GET['edit_account'])){
     $user_session_name=$_SESSION['username'];
-    $select_query="select * from user_table where username='$user_session_name'
+    $select_query="select * from user_table where username='$username'
     ";
     $result_query=mysqli_query($con,$select_query);
     $row_fetch=mysqli_fetch_assoc($result_query);
