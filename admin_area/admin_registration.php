@@ -30,17 +30,17 @@
         </div>
         <div class="col-lg-6 col-lx-4">
            <form action="" method="POST">
-           <div class="form-outline mb-4">
+           <div class="form-outline mb-4 w-50">
             <label for="username" class="form-label">username</label>
             <input type="text" id="username" name="username" placeholder="Enter your username" required="required"
             class="form-control">
            </div>
-           <div class="form-outline mb-4">
+           <div class="form-outline mb-4 w-50">
             <label for="email" class="form-label">Email</label>
             <input type="email" id="email" name="email" placeholder="Enter your username" required="required"
             class="form-control">
            </div>
-           <div class="form-outline mb-4">
+           <div class="form-outline mb-4 w-50">
             <label for="password" class="form-label">Password</label>
             <input type="password" id="password" name="password" placeholder="Enter your username" required="required"
             class="form-control">
