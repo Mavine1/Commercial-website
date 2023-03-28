@@ -40,7 +40,12 @@
             <input type="email" id="email" name="email" placeholder="Enter your username" required="required"
             class="form-control">
            </div>
-           
+            <!--image field-->
+          <div class="form-outline mb-4">
+          <label for="user_image" class="form-label">User image</label>
+           <input type="file" id="user_image" class="form-control"
+            required="required" name = "user_image"/>
+             </div>
            <div class="form-outline mb-4 w-50">
             <label for="password" class="form-label">Password</label>
             <input type="password" id="password" name="password" placeholder="Enter your username" required="required"
@@ -65,21 +70,20 @@
 <!--php code-->
 <?php
 
-if(isset($_POST['user_register'])){
+if(isset($_POST['admin_register'])){
     $user_username=$_POST['username'];
     $user_email=$_POST['user_email'];
     $user_password=$_POST['user_password'];
     $hash_password=password_hash($user_password,PASSWORD_DEFAULT);
     $confirm_user_password=$_POST['confirm_user_password'];
     $user_address=$_POST['user_address'];
-    $user_contact=$_POST['user_contact'];
     $user_image=$_FILES['user_image'];['name'];
     $user_image=$_FILES['user_image'];['tmp_name'];
     $user_image_tmp=$_FILES['user_image'];['name'];['tmp_name'];
     $user_ip=getIPAddress();
 
     //select_query
-    $select_query="select * from user_table where username='$user_username'
+    $select_query="select * from admin where username='$user_username'
     or user_email='$user_email'";
     $result=Mysqli_query($con,$select_query);
     $rows_count=mysqli_num_rows($result);
