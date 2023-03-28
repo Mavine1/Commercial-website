@@ -10,7 +10,9 @@
     </thead>
     <tbody class="bg-secondary text-light">
     <?php
-    $select_cat=
+    $select_cat="select * from categories ";
+    $result=mysqli_query($con,$select_cat);
+    while()
     ?>
         <tr class="bg-secondary text-light">
             <td>1</td>
