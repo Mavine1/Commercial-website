@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="style.css">
     <style>
         body{
-            overflow: ;
+            overflow: hidden;
         }
     </style>
 </head>
@@ -24,6 +24,6 @@
     <div class="container-fluid m-3">
         <h2 class="text-container mb-5">Admin Registration</h2>
 </div>
-    
+    <div ></div>
 </body>
 </html>
