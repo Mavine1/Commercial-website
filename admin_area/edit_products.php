@@ -127,10 +127,11 @@ if(isset($_POST['edit_product'])){
     $product_keyword=$_POST['product_keyword'];
     $product_category=$_POST['product_category'];
     $product_brands=$_POST['product_brands'];
-    $product_image1=$_FILES['product_image1'];
+    $product_price=$_POST['product_price'];
+    $product_image1=$_FILES['product_image1'];['name'];
     $product_image2=$_FILES['product_image2'];
     $product_image3=$_FILES['product_image3'];
-    $product_price=$_POST['product_title'];
+  
 }
 
 ?>
