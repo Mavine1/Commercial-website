@@ -144,8 +144,11 @@ if(isset($_POST['edit_product'])){
      echo "<script> alert('please fill all the fields and continue the process')</script>";  
     }else{
         move_uploaded_file($temp_image1,"./product_images/$product_image1");
-        move_uploaded_file($temp_image2,"./product_images/$product_image1");
-        move_uploaded_file($temp_image2,"./product_images/$product_image1");
+        move_uploaded_file($temp_image2,"./product_images/$product_image2");
+        move_uploaded_file($temp_image2,"./product_images/$product_image3");
+
+        //query to update products
+        $update_p
     }
   
 }
