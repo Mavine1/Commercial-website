@@ -43,7 +43,7 @@
            <div>
            <input type="submit" class="bg-info py-2 border-0"
            name="admin_registration" value="Register">
-           <p class="small fu-bold mt-2 pt-1">Do already have you have an account? <a href="admin_login.php" class="link-danger">Login</a></p>
+           <p class="small fu-bold mt-2 pt-1">Don't you have an account? <a href="admin_registration.php" class="link-danger">Register</a></p>
     </div>
     </div>
         </form>
