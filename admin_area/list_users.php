@@ -8,7 +8,7 @@
         $row_count=mysqli_num_rows($result);
         
 if($row_count==0){
-    echo "<h2 class='text-danger text-center mt-5'>No Payments received  yet </h2>";
+    echo "<h2 class='text-danger text-center mt-5'>No </h2>";
 }else{
     echo "<tr>
         <th>S1 no</th>
@@ -36,10 +36,10 @@ if($row_count==0){
         <td>$username</td>
         <td>$user_email</td>
         <td><img src='../user_area/user_images/$user_image'alt='$username'
-         alt='$username' class='/></td>
+         alt='$username' class='product_img'/></td>
       
         <td>$user_address</td>
-        <td>$</td>
+        <td>$user_mobile</td>
         <td><a href='' class='text-light'><i class='fa-solid fa-trash'></i>
 
     </tr>";
