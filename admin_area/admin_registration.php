@@ -44,12 +44,13 @@
             <label for="password" class="form-label">Password</label>
             <input type="password" id="password" name="password" placeholder="Enter your username" required="required"
             class="form-control">
-           </div>
-           <div class="form-outline mb-4">
-            <label for="confirm_paasword" class="form-label">confirm password</label>
-            <input type="text" id="confirm_paasword" name="confirm_paasword" placeholder="Enter your username" required="required"
+           
+            <label for="confirm_password" class="form-label">confirm password</label>
+            <input type="text" id="confirm_password" name="confirm_password" placeholder="Enter your username" required="required"
             class="form-control">
            </div>
+           </div>
+           <input type="submit" class=>
            </form>
         </div>
     </div>
