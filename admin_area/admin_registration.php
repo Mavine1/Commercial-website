@@ -46,7 +46,7 @@ include('../admin_area/functions/common_function.php');
             class="form-control">
            </div>
             <!--image field-->
-          <div class="form-outline mb-4">
+          <div class="form-outline mb-4 w-50 ">
           <label for="user_image" class="form-label">User image</label>
            <input type="file" id="user_image" class="form-control"
             required="required" name = "user_image"/>
