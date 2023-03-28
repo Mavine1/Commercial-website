@@ -19,7 +19,7 @@
 <tbody class='bg-secondary text-light'>";
 
 if($row_count==0){
-    echo "<h2 class='bd-danger text-center mt-5'>No orders </h2>";
+    echo "<h2 class='bg-danger text-center mt-5'>No orders </h2>";
 }else{
     $number=0;
     while($row_data=mysqli_fetch_assoc($result)){
@@ -38,7 +38,7 @@ if($row_count==0){
         <td>$total_products</td>
         <td>$order_date</td>
         <td>$order_status</td>
-        <td><a href=''><i class='fa-solid fa-trash'></i>
+        <td><a href='' class='text-light'><i class='fa-solid fa-trash'></i>
 
     </tr>";
     }
