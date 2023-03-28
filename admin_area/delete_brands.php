@@ -1,6 +1,6 @@
 <?php
 if(isset($_GET['delete_brands'])){
-    $delete_id=$_GET['delete_brands'];
+    $delete_brands=$_GET['delete_brands'];
     //echo $delete_id;
     //delete query
 
