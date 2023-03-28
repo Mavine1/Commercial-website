@@ -1,3 +1,8 @@
+
+<?php
+include('../includes/connect.php');
+include('../admin_area/functions/common_function.php');
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -83,7 +88,7 @@ if(isset($_POST['admin_register'])){
     $user_ip=getIPAddress();
 
     //select_query
-    $select_query="select * from admin where username='$user_username'
+    $select_query="select * from admin_table where username='$user_username'
     or user_email='$user_email'";
     $result=Mysqli_query($con,$select_query);
     $rows_count=mysqli_num_rows($result);
