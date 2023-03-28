@@ -35,7 +35,7 @@ if($row_count==0){
         <td>$number</td>
         <td>$username</td>
         <td>$user_email</td>
-        <td>$</td>
+        <td><img src='../user_area/'alt='$username'/></td>
         <td>$date</td>
         <td><a href='' class='text-light'><i class='fa-solid fa-trash'></i>
 
