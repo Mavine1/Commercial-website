@@ -24,7 +24,7 @@
     <div class="container-fluid m-3">
         <h2 class="text-center  mb-5">Admin Registration</h2>
 </div>
-    <div class="row d-flex justify-content-center align-items-center">
+    <div class="row d-flex justify-content-center ">
         <div class="col-lg-6 col-lx-4">
             <img src="../images/dairy.png" alt="Admin Registration" class="img-fluid">
         </div>
@@ -32,6 +32,16 @@
            <form action="" method="POST">
            <div class="form-outline mb-4">
             <label for="username" class="form-label">username</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username" required="required"
+            class="form-control">
+           </div>
+           <div class="form-outline mb-4">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your username" required="required"
+            class="form-control">
+           </div>
+           <div class="form-outline mb-4">
+            <label for="username" class="form-label">Password</label>
             <input type="text" id="username" name="username" placeholder="Enter your username" required="required"
             class="form-control">
            </div>
