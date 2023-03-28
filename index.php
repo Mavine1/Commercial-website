@@ -26,6 +26,10 @@ session_start();
     <style>
   body{
     overflow-x:hidden;
+  }
+  .container-fluid{
+    position:fixed;
+    top:0;left:0;right:0;
     
   }
 </style>
