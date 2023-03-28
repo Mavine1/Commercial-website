@@ -20,7 +20,12 @@
 
 if($row_count==0){
     echo "<h2 class='bd-danger text-center mt-5'>No orders </h2>";
-}else
+}else{
+    $number=0;
+    while($row_data=mysqli_fetch_assoc($result)){
+        $order_id=
+    }
+}
         ?>
          
 
