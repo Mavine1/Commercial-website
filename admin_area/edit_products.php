@@ -148,7 +148,8 @@ if(isset($_POST['edit_product'])){
         move_uploaded_file($temp_image2,"./product_images/$product_image3");
 
         //query to update products
-        $update_p
+        $update_products="update products set product_title='$product_title',
+        category_id='$product_category"
     }
   
 }
