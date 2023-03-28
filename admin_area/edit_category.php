@@ -7,6 +7,7 @@
             <input type="text" name="category_title" id="category_title" class="form-control"
             required="required">
         </div>
-        <input type="submit" value="update Category" class="btn btn-info px-3 mb-3">
+        <input type="submit" value="update Category" class="btn btn-info px-3 mb-3"
+        required="required" value='>
     </form>
 </div>
