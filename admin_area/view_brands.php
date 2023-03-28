@@ -43,8 +43,8 @@
         <h4>Are you sure you want to delete this </h4>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal"><a href="./index.php?view_brands" class='text-light text-decoration'>No</a></button>
-        <button type="button" class="btn btn-primary">Yes</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal"><a href="./index.php?view_brands" class='text-light text-decoration-none'>No</a></button>
+        <button type="button" class="btn btn-primary"><a href ='index.php?delete_brands=<</button>
       </div>
     </div>
   </div>
