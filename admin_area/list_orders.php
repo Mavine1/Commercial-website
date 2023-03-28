@@ -19,8 +19,8 @@
 <tbody class='bg-secondary text-light'>";
 
 if($row_count==0){
-    echo ""
-}
+    echo "<h2 class='bd-danger text-center mt-5'>No orders </h2>";
+}else
         ?>
          
 
