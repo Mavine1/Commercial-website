@@ -98,6 +98,9 @@ body{
         if(isset($_GET['view_brands'])){
             include('view_brands.php');
         }
+        if(isset($_GET['edit_category'])){
+            include('edit_category.php');
+        }
         ?>
         </div>
         <!---last child--->
