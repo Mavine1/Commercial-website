@@ -112,6 +112,9 @@ $insert_query="insert into user_table (username,user_email,user_password,user_im
 user_address,user_mobile) values ('$user_username','$user_email','$hash_password',
 '$user_image','$user_ip','$user_address','$user_contact')";
 $sql_execute=mysqli_query($con,$insert_query);
+if($result_query){
+    echo "<script>alert('inserted successfully')</script>";
+   }    
 }
 //selecting cart items
 $select_cart_items="select * from cart_details where ip_address='$user_ip'";
