@@ -91,10 +91,10 @@ if(isset($_POST['user_register'])){
     $user_address=$_POST['user_address'];
     $user_contact=$_POST['user_contact'];
     $user_image=$_FILES['user_image'];['name'];
-    $user_image=$_FILES['user_image'];['tmp_name'];
+    $temp_image=$_FILES['user_image'];['tmp_name'];
     $user_image_tmp=$_FILES['user_image'];['name'];['tmp_name'];
     $user_ip=getIPAddress();
-
+ 
     //select_query
     $select_query="select * from user_table where username='$user_username'
     or user_email='$user_email'";
