@@ -186,7 +186,7 @@ cart();
 </div>
 <!--fourth-->
 <div class="row px-1">
-  <div class="col md-10">
+  //<div class="col md-10">
     <!--products-->
 <div class="row">
    <!--fetching data-->
@@ -199,7 +199,7 @@ cart();
   <!--row-->
   </div>
   <!--col end-->
-</div>
+</div>-->
 
   <div class="col-md-2 bg-secondary p-0">
     <ul class="navbar-nav me-auto text-center">
