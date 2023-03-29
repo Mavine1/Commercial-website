@@ -80,7 +80,7 @@ if(isset($_POST['user_login'])){
       }else{
         $_SESSION['username']=$username;
         echo "<script>alert('login successful')</script>";
-        echo "<script>window.open('profile.php','_self')</script>";
+        echo "<script>window.open('payment.php','_self')</script>";
       }
     }else{
       echo "<script>alert('invalid credentials')</script>";
