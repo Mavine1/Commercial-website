@@ -184,22 +184,7 @@ cart();
   <h3 class="text-center">Store</h3>
   <p class="text-center">Communication is the heart of E-commerce and community</p>
 </div>
-<!--fourth-->
-<div class="row px-1">
-  //<div class="col md-10">
-    <!--products-->
-<div class="row">
-   <!--fetching data-->
 
-   <?php
-      view_details();  
-      get_unique_categories();
-      get_unique_brands();
-      ?>
-  <!--row-->
-  </div>
-  <!--col end-->
-</div>-->
 
   <div class="col-md-2 bg-secondary p-0">
     <ul class="navbar-nav me-auto text-center">
