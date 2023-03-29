@@ -104,7 +104,7 @@ cart();
     <div class="col-md-4">
 <!--card-->
 <!--connect file-->
-
+    </div>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -272,7 +272,6 @@ cart();
       getcategories();
       ?>
     </ul>
-</div>
 <!---footer-->
 <!--include footer-->
 <?php include("/includes/footer.php") ?>
