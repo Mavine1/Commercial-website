@@ -179,11 +179,6 @@ cart();
         }
         ?>
 </nav>
-<!---third--->
-<div class="bg-light">
-  <h3 class="text-center">Store</h3>
-  <p class="text-center">Communication is the heart of E-commerce and community</p>
-</div>
 <!--fourth-->
 <div class="row px-1">
   //<div class="col md-10">
