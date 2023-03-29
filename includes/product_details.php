@@ -184,7 +184,22 @@ cart();
   <h3 class="text-center">Store</h3>
   <p class="text-center">Communication is the heart of E-commerce and community</p>
 </div>
+<!--fourth-->
+<div class="row px-1">
+  //<div class="col md-10">
+    <!--products-->
+<div class="row">
+   <!--fetching data-->
 
+   <?php
+      view_details();  
+      get_unique_categories();
+      get_unique_brands();
+      ?>
+  <!--row-->
+  </div>
+  <!--col end-->
+</div>-->
 
   <div class="col-md-2 bg-secondary p-0">
     <ul class="navbar-nav me-auto text-center">
@@ -218,50 +233,4 @@ cart();
   integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
 </html>
-    </div>
-<div class="col md 8">
-<!--related-->
-</div>
-   <!--fetching data-->
-
-   <?php
-    view_details();
-      get_unique_categories();
-      get_unique_brands();
-      ?>
-  <!--row-->
-  </div>
-  <!--col end-->
-</div>
-
-  <div class="col-md-2 bg-secondary p-0">
-    <ul class="navbar-nav me-auto text-center">
-      <li class="nav-item bg-info">
-        <a href="#" class="nav-link text-light"><h4>Delivery Brands</h4></a>
-      </li>
-
-      <!--fetching data-->
-
-      <?php
-      getbrands();
-      ?>
-    </ul>
-  <!------categories--->
-  <ul class="navbar-nav me-auto text-center">
-      <li class="nav-item bg-info">
-        <a href="#" class="nav-link text-light"><h4>Categories</h4></a>
-      </li>
-
-      <!--fetching of data from the database-->
-      <?php
-      getcategories();
-      ?>
-    </ul>
-<!---footer-->
-<!--include footer-->
-<?php include("/includes/footer.php") ?>
-<!---bootstrap js link---> 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" 
-  integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-</body>
-</html>
+  
